@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+/* #############################################################/*/
+/* #############################################################/*/
+/* #############################################################/*/
+/* Layout page d'accueil */
+
+
+#main {
+    display: grid;
+    grid-template-areas:
+     "header"
+     "content"
+     "footer";
+     row-gap: 30px;
+}
+
+#header {
+    grid-area: header;
+    grid-template-areas:
+    "banner"
+    "nav"
+    ;
+}
+
+#nav {
+    grid-area: nav;
+    background-color: blue;
+    height: 100px;
+}
+
+#banner {
+    grid-area: banner;
+    background-color: blueviolet;
+    height: 200px;
+}
+
+#content {
+    grid-area: content;
+    display: grid;
+    grid-template-areas:
+    "filter"
+    "article"
+    ;
+    width: 100%;
+    margin: auto;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+#filter {
+    grid-area: filter;
+    background: red;
+    height: 100px;
+}
+
+#article{
+    grid-area: article;
+    background: grey;
+    height: 350px;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    background-color: chartreuse;
+    height: 200px;
+    display: none;
+}
+
+#advert{
+    grid-area: advert;
+    background-color: darkgray;
+    height: 100px;
+    display: none;
+}
+
+#footer {
+    grid-area: footer;
+    background-color: darkred;
+    height:150px ;
+}
+
+@media (min-width: 768px) {
+    #content {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    #content {
+        grid-area: content;
+        display: grid;
+        grid-template-areas:
+        "article article sidebar"
+        "article article advert"
+        ;
+        width: 100%;
+        margin: auto;
+    }
+    #sidebar {
+        grid-area: sidebar;
+        background-color: chartreuse;
+        height: 200px;
+        display: inherit;
+       
+    }
+    #advert{
+        grid-area: advert;
+        background-color: darkgray;
+        height: 100px;
+        display: inherit;
+    }
+    #filter {
+        grid-area: filter;
+        background: red;
+        height: 100px;
+        display: none;
+    }    
+
+}
+
+/* #############################################################/*/
+/* #############################################################/*/
+/* #############################################################/*/
