@@ -42,6 +42,19 @@ les titre h2 --> 18px en bold
 les titre h3 --> 15px en bold
 
 les texte (<p>) --> 12px
+  
+  
+##################
+#Les tailles de padding, margin, gap
+##################
+
+Pour une harmonie du site, utiliser des grandeurs suivante (pour les differents element du site) :
+
+5px
+10px
+15px
+30px
+60px
 
 
 ##################
