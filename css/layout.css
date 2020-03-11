@@ -1,24 +1,24 @@
 /* #############################################################/*/
+
 /* #############################################################/*/
+
 /* #############################################################/*/
+
 /* Layout page d'accueil */
 
 #main {
   display: grid;
-  grid-template-areas:
-    "header"
-    "content"
-    "footer";
+  grid-template-areas: "header" "content" "footer";
   row-gap: 30px;
 }
 
 /* TRISTAN */
+
 #header {
-  background-color: #000813;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%);
   grid-area: header;
-  grid-template-areas:
-    "banner"
-    "nav";
+  grid-template-areas: "banner" "nav";
 }
 
 #nav {
@@ -27,17 +27,15 @@
 
 #banner {
   grid-area: banner;
-  background-color: blueviolet;
-  height: 200px;
+  height: 300px;
 }
+
 /* END TRISTAN */
 
 #content {
   grid-area: content;
   display: grid;
-  grid-template-areas:
-    "filter"
-    "article";
+  grid-template-areas: "filter" "article";
   width: 100%;
   margin: auto;
   column-gap: 30px;
@@ -85,15 +83,16 @@
   #content {
     grid-area: content;
     display: grid;
+
     grid-template-areas:
       "article article sidebar"
       "article article advert";
-    width: 100%;
+    width: 992px; 
     margin: auto;
   }
   #sidebar {
     grid-area: sidebar;
-    background-color: chartreuse;
+    background-color: white;
     height: 200px;
     display: inherit;
   }
