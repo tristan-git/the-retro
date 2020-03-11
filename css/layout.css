@@ -44,9 +44,11 @@
 
 #filter {
   grid-area: filter;
-  background: red;
-  height: 100px;
-}
+  background: #FFD903;
+  height: 50px;
+  border-radius: 3px;
+  }
+ 
 
 #article {
   grid-area: article;
