@@ -3,19 +3,23 @@
   display: flex;
   align-content:flex-start;
   flex-wrap: wrap;
-
 }
+
 
 .articleU {
   border-radius: 9px;
   -webkit-box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.13);
   -moz-box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.13);
   box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.13);
-  width: 400px;
+  width: 300px;
   background: white;
   font-family: sans-serif;
   font-size: 12px;
-  margin: 15px;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  margin-right: auto;
+
 }
 
 .articleU:hover {
@@ -30,11 +34,11 @@
 
 .articleTete{
   display: flex;
+  justify-content: space-between;
   padding: 5px;
 }
 .articleG{
-  position: relative;
-  left: 0;
+
   align-items: center;
   width: 270px;
   font-size: 14px;
@@ -42,8 +46,6 @@
   margin: auto;
 }
 .articleD{
-  position: relative;
-  left: 5px;
   align-items: center;
   font-size: 12px;
   display: flex;
@@ -89,4 +91,26 @@
 :hover.articleBouton{
   background: lightgray;
   color:black;
+}
+
+
+@media (max-width: 576px) {
+  #article{
+    width: 100%;
+  }
+    .articleU {
+        width: 100%;
+        margin: 12px;
+    }
+}
+@media (max-width: 992px) {
+    #article {
+        width: 700px;
+        margin: auto;
+    }
+}
+@media (min-width: 992px) {
+    #article {
+        width: 700px;
+
 }

@@ -51,7 +51,6 @@
 #article {
   grid-area: article;
   background: grey;
-  height: 350px;
 }
 
 #sidebar {
