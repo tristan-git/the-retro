@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="179px" height="179px" viewBox="0 0 179 179" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>np_games_2583608_000000</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-17.1%" y="-12.7%" width="134.2%" height="126.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mobile-1" transform="translate(-92.000000, -519.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Article-1" filter="url(#filter-1)" transform="translate(26.000000, 430.000000)">
+                <g id="np_games_2583608_000000" transform="translate(155.500000, 176.500000) rotate(-360.000000) translate(-155.500000, -176.500000) translate(70.000000, 91.000000)">
+                    <polygon id="Path" points="147 37 159 37 159 49 147 49"></polygon>
+                    <path d="M158.780057,61.0730229 L134.353851,61.0730229 L134.353851,85.49892 L146.574334,85.49892 L146.574334,97.7192486 L122.148129,97.7192486 L122.148129,85.49892 L109.927646,85.49892 L109.927646,48.8528743 L122.148129,48.8528743 L122.148129,36.6467657 L146.574334,36.6467657 L146.574334,24.4264372 L134.353851,24.4264372 L134.353851,12.2203285 L109.927646,12.2203285 L109.927646,0 L61.0734343,0 L61.0734343,12.2203285 L36.6472286,12.2203285 L36.6472286,24.4264372 L24.4267457,24.4264372 L24.4267457,36.6467657 L12.2204829,36.6467657 L12.2204829,73.2802115 L-2.84217094e-14,73.2802115 L-2.84217094e-14,171 L12.2204829,171 L12.2204829,158.779671 L24.4267457,158.779671 L24.4267457,146.573563 L36.6472286,146.573563 L36.6472286,158.779671 L48.8534914,158.779671 L48.8534914,171 L73.2796971,171 L73.2796971,146.574103 L97.7203029,146.574103 L97.7203029,171 L122.146509,171 L122.146509,158.779671 L134.352771,158.779671 L134.352771,146.573563 L146.573254,146.573563 L146.573254,158.779671 L158.779517,158.779671 L158.779517,171 L171,171 L171,73.2802115 L158.779517,73.2802115 M85.4991,61.0741028 L61.0728943,61.0741028 L61.0728943,85.5 L73.2791571,85.5 L73.2791571,97.7203285 L48.8529514,97.7203285 L48.8529514,85.5 L36.6466886,85.5 L36.6466886,48.8539543 L48.8529514,48.8539543 L48.8529514,36.6478457 L73.2791571,36.6478457 L73.2791571,48.8539543 L85.49964,48.8539543" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
