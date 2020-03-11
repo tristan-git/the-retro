@@ -82,29 +82,32 @@
   
   
   /* #######################Tag cloud #########################*/
-  .tagcloud {
-    display: inline-block;
-    text-align: inherit;
-    list-style: none;
+  #tagcloud { 
+    display:flex;
+    flex-direction:;
   }
   
-  .tagcloud ul li a {
-      height: 35px;
-      line-height: 30px;
-      padding: 0 1em 0 .75em;
-      background-color:#FFD903;
-      border-radius: 10px;
-      color: black;
+  #tagcloudliste {
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+    line-height: 30px;
+    padding: 0 1em 0 .75em;
+    margin: 1em;
+    background-color:#FFD903;
+    border-radius: 3px;
+    color: black;
     font-size: 15px;
     font-weight: bold;
-      -webkit-transition: .2s;
+    -webkit-transition: .2s;
     transition: .2s;
    
   }
   
-  .tagcloud ul li a:hover {
-      background-color: #555;
-      color: #fff;
+  #tagcloudliste:hover {
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
   }
   
   /* //////////////Advert area ////////////////////////////////////*/
