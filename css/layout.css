@@ -15,7 +15,8 @@
 /* TRISTAN */
 
 #header {
-  background-color: #000813;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%);
   grid-area: header;
   grid-template-areas: "banner" "nav";
 }
@@ -26,8 +27,7 @@
 
 #banner {
   grid-area: banner;
-  background-color: #000813;
-  height: 200px;
+  height: 300px;
 }
 
 /* END TRISTAN */
