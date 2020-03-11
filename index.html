@@ -10,6 +10,14 @@
     <link type="text/css" rel="stylesheet" href="css/article.css" />
     <link type="text/css" rel="stylesheet" href="css/sidebar.css" />
     <link type="text/css" rel="stylesheet" href="css/footer.css" />
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+
   </head>
   <body>
     <div id="main">
@@ -36,120 +44,163 @@
       <div id="content">
         <!-- JEROME ###################-->
         <div id="filter">filter</div>
-
         <!-- END JEROME ###################-->
         <!-- NICO ###################-->
-        <div class="article">
-          <div class= "articleTete"><!-- en tête -->
-          <div class=articleG>  <img alt="Auteur Nicolas" src="images/profil.jpg" height="40px"><a class= "articleNomAuteur">Nom de l'auteur</a></div><!-- nom de l'auteur + photo-->
-          <div class="articleD">  <img alt="icone calendrier" src ="images/calendrier.png" width=40px><a>01/05/2020 à 20:15</a> </div><!-- en tête -->
-          </div>
-          
-          <div class="articleCorps"><!-- corps -->
-            <div style="height: 300px; width:300px; background:grey;margin:auto;"></div><!-- image en 100% du cadre article-->
-          <div class="articleTitre">
-            <p>Tetris c'est le titre</p>
-          </div>
-          </div>
-          <!--
+
+        <div id="article">
+          <div class="article">
+            <div class="articleTete">
+              <!-- en tête -->
+              <div class="articleG">
+                <img
+                  alt="Auteur Nicolas"
+                  src="images/profil.jpg"
+                  height="40px"
+                /><a class="articleNomAuteur">Nom de l'auteur</a>
+              </div>
+              <!-- nom de l'auteur + photo-->
+              <div class="articleD">
+                <img
+                  alt="icone calendrier"
+                  src="images/calendrier.png"
+                  width="40px"
+                /><a>01/05/2020 à 20:15</a>
+              </div>
+              <!-- en tête -->
+            </div>
+
+            <div class="articleCorps">
+              <!-- corps -->
+              <div
+                style="height: 300px; width:300px; background:grey;margin:auto;"
+              ></div>
+              <!-- image en 100% du cadre article-->
+              <div class="articleTitre">
+                <p>Tetris c'est le titre</p>
+              </div>
+            </div>
+            <!--
               <div class = "articleCourant"><p>
           Le jeu est un RPG, il se joue sur pc uniquement et il est typique des précurseurs
           des mmorpg actuel. Son inventaire riche en déclinaison d'armes, armures et potions lui donne des atouts
           qui on fait de lui une pointure des MMO des années 1990.
           </p></div>
           -->
-            <div class= "articleFooter"><!--pied carte -->
-              <div class="articleGauche"><!-- gauche -->
-                <div class="articleBouton"><a class=articleTags>#Old-generation</a></div>
-                <div class="articleBouton"><a class=articleTags>#3D</a></div>
-                <div class="articleBouton"><a class=articleTags>#Snes</a></div>
+            <div class="articleFooter">
+              <!--pied carte -->
+              <div class="articleGauche">
+                <!-- gauche -->
+                <div class="articleBouton">
+                  <a class="articleTags">#Old-generation</a>
+                </div>
+                <div class="articleBouton"><a class="articleTags">#3D</a></div>
+                <div class="articleBouton">
+                  <a class="articleTags">#Snes</a>
+                </div>
               </div>
-          
-              <div class= "articleCoeur"> <!-- class pour positionner le coeur à gauche -->
-              <a>56  	♡</a></div>
+
+              <div class="articleCoeur">
+                <!-- class pour positionner le coeur à gauche -->
+                <a>56 ♡</a>
+              </div>
+            </div>
           </div>
-          </div>
+        </div>
         <!-- END NICO ###################-->
         <!-- josué ###################-->
-        <div id="article">article</div>
-        <div id="sidebar"> 
+
+        <div id="sidebar">
           <form action="">
-            <input type="search">
-            <i class="fa fa-search"></i> 
+            <input type="search" />
+            <i class="fa fa-search"></i>
           </form>
           <div id="tagcloud">
             
-              <div id=tagcloudliste>Arcade </div>
-              <div id=tagcloudliste>Zelda</div>
-              <div id=tagcloudliste>Pacman</div>
-              <div id=tagcloudliste>Tetris</div>
-              <div id=tagcloudliste>Retro</div>
-              <div id=tagcloudliste>Megadrive</div>
-              <div id=tagcloudliste>Donkey Kong</div>
-              <div id=tagcloudliste>Mario</div>
+              <div id=tagcloudliste>#Arcade </div>
+              <div id=tagcloudliste>#Zelda</div>
+              <div id=tagcloudliste>#Pixel</div>
+              <div id=tagcloudliste>#Tetris</div>
+              <div id=tagcloudliste>#Top</div>
+              <div id=tagcloudliste>#Pong</div>
+              <div id=tagcloudliste>#Net-B</div>
+              <div id=tagcloudliste>#Mario</div>
+              <div id=tagcloudliste>#Bomberman</div>
+              <div id=tagcloudliste>#Pacman</div>
+              <div id=tagcloudliste>#MegaMan</div>
+              <div id=tagcloudliste>#Portable</div>
+              <div id=tagcloudliste>#Labyrinthe</div>
+              <div id=tagcloudliste>#Jaune</div>
+          </div>
+
+          <div>
+            <img id="logoside" src="/img/icons8-game-boy-visuelle-100.png" alt="Logo gameboy"/>
           </div>
         </div>
-        <div id="advert"> 
-          <img id=imgAdvert src="https://upload.wikimedia.org/wikipedia/commons/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg"/>
-        </div>r
+
+
+        <div id="advert">
+          <img
+            id="imgAdvert"
+            src="https://live.staticflickr.com/3370/3344264429_00898c0574_b.jpg"
+            alt= "Image publicitaire"
+          />
+        </div>
         <!-- end josué ###################-->
       </div>
       <!-- JEROME ###################-->
       <div id="footer">
         <div class="footer">
-            <div class="footer-container">
+          <div class="footer-container">
             <div class="col">
-            <h1>Company</h1>
-            <ul>
+              <h1>Company</h1>
+              <ul>
                 <li>About</li>
                 <li>Mission</li>
-
-            </ul>
+              </ul>
             </div>
             <div class="col">
-            <h1>Products</h1>
-            <ul>
+              <h1>Products</h1>
+              <ul>
                 <li>About</li>
                 <li>Mission</li>
-
-            </ul>
+              </ul>
             </div>
             <div class="col">
-            <h1>Accounts</h1>
-            <ul>
+              <h1>Accounts</h1>
+              <ul>
                 <li>About</li>
                 <li>Mission</li>
-            </ul>
+              </ul>
             </div>
             <div class="col">
-            <h1>Resources</h1>
-            <ul>
+              <h1>Resources</h1>
+              <ul>
                 <li>Webmail</li>
                 <li>Redeem code</li>
                 <li>WHOIS lookup</li>
                 <li>Site map</li>
                 <li>Web templates</li>
                 <li>Email templates</li>
-            </ul>
+              </ul>
             </div>
             <div class="col">
-            <h1>Support</h1>
-            <ul>
+              <h1>Support</h1>
+              <ul>
                 <li>Contact us</li>
                 <li>Web chat</li>
                 <li>Open ticket</li>
-            </ul>
+              </ul>
             </div>
             <div class="col social">
-            <h1>Social</h1>
-            <ul>
-                <li><img src="#" width="32" style="width: 32px;"></li>
-                <li><img src="#" width="32" style="width: 32px;"></li>
-                <li><img src="#" width="32" style="width: 32px;"></li>
-            </ul>
+              <h1>Social</h1>
+              <ul>
+                <li><img src="#" width="32" style="width: 32px;" /></li>
+                <li><img src="#" width="32" style="width: 32px;" /></li>
+                <li><img src="#" width="32" style="width: 32px;" /></li>
+              </ul>
             </div>
-        <div class="clearfix"></div>
-        </div>
+            <div class="clearfix"></div>
+          </div>
         </div>
       </div>
       <!-- END JEROME ###################-->
