@@ -15,14 +15,39 @@
     #article {
 
 
-}
+}<!--
   .pageArticleContainer{
-    width: 100%;
-    display: flex;
-    align-content: center;
-  }
+      }
+
 .pageTete{
+  padding: 20px;
+  font-size: 20px;
+  margin:auto;
   width: 500px;
-  background: red;
+  background: lightgrey;
+}
+
+.articleIntro{
+  background: white;
+  border-radius: 9px;
+  padding: 10px;
+  line-height: 1,8;
+  font-style: italic;
+  font-size: 18px,
+}
+
+.courant{
+  font-size: 14px;
+  line-height: 2;
+  background: white;
+  border-radius: 9px;
+  padding: 10px;
+}
+h1{
+    text-align: center;
+}
+.artCenter {
+  width: 180px;
+  margin: auto;
 
 }
