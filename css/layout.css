@@ -84,13 +84,16 @@
   #content {
     grid-area: content;
     display: grid;
-    grid-template-areas: "article article sidebar" "article article advert";
-    width: 100%;
+
+    grid-template-areas:
+      "article article sidebar"
+      "article article advert";
+    width: 992px; 
     margin: auto;
   }
   #sidebar {
     grid-area: sidebar;
-    background-color: chartreuse;
+    background-color: white;
     height: 200px;
     display: inherit;
   }
