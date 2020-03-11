@@ -15,6 +15,7 @@
     #article {
 
 
+<<<<<<< HEAD
 }<!--
   .pageArticleContainer{
       }
@@ -49,5 +50,17 @@ h1{
 .artCenter {
   width: 180px;
   margin: auto;
+=======
+}
+  .pageArticleContainer{
+    width: 100%;
+    display: flex;
+    align-content: center;
+  }
+.pageTete{
+  margin:auto;
+  width: 500px;
+  background: red;
+>>>>>>> featured/article
 
 }
