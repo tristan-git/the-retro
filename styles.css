@@ -77,7 +77,6 @@ ul {
 #advert {
   grid-area: advert;
   background-color: darkgray;
-  height: 100px;
   display: none;
 }
 
@@ -100,7 +99,7 @@ ul {
     grid-template-areas:
       "article article sidebar"
       "article article advert";
-    width: 100%;
+    width: 992px;
     margin: auto;
   }
   #sidebar {
@@ -142,5 +141,3 @@ ul {
   position: relative;
   top: 15px;
 }
-
-
