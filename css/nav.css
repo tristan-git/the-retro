@@ -1,0 +1,51 @@
+/* #############################################################/*/
+/* #############################################################/*/
+/* #############################################################/*/
+/* Tristan navbar */
+
+#header nav {
+  background-color: #000813;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 992px;
+  margin: auto;
+}
+#header nav #logo img {
+  width: 115px;
+  position: relative;
+  top: 15px;
+}
+
+#header nav #nav-desktop {
+  display: none;
+}
+/* Desktop version */
+@media (min-width: 992px) {
+  #burger {
+    display: none;
+  }
+  #header nav #nav-desktop {
+    display: inherit;
+  }
+  #header nav #nav-desktop ul {
+    display: flex;
+  }
+  #header nav #nav-desktop ul li a {
+    padding: 10px;
+    color: white;
+  }
+
+  #header nav #logo {
+    order: 1;
+  }
+  #header nav #nav-desktop {
+    order: 2;
+  }
+  #header nav #login {
+    order: 3;
+  }
+}
