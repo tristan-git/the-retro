@@ -1,23 +1,4 @@
-
-@media (max-width: 576px) {
-  #article{
-
-  }
-
-    }
-}
-@media (max-width: 992px) {
-    #article {
-
-    }
-}
-@media (min-width: 992px) {
-    #article {
-
-
-<<<<<<< HEAD
-}<!--
-  .pageArticleContainer{
+ .pageArticleContainer{
       }
 
 .pageTete{
@@ -44,13 +25,17 @@
   border-radius: 9px;
   padding: 10px;
 }
+
+.imagetxt{
+  margin:15px;
+  width: 150px;
+}
 h1{
     text-align: center;
 }
 .artCenter {
   width: 180px;
   margin: auto;
-=======
 }
   .pageArticleContainer{
     width: 100%;
@@ -61,6 +46,5 @@ h1{
   margin:auto;
   width: 500px;
   background: red;
->>>>>>> featured/article
 
 }
