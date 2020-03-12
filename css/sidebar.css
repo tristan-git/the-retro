@@ -2,6 +2,11 @@
 /* #############################################################/*/
 /* #############################################################/*/
 /* Josué Llopez sidebar*/
+.logosideArticle {
+  display: none;
+}
+
+
 @media (min-width: 992px) {
     #sidebar {
       grid-area: sidebar;
@@ -155,6 +160,7 @@
   #iconArticle:hover {
     width: 55px;
   }
+
 
 
 
