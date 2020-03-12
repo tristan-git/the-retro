@@ -42,6 +42,7 @@
   color: #585858;
   margin-top: -8px;
 }
+
 .articleRond{
 width: 30px;
 height: 30px;
@@ -49,6 +50,16 @@ border-radius: 50%;
 background-image: url(../img/profil.jpg);
 background-size: 100%;
 margin-right: 12px;
+}
+.articleCalend{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background-image: url(../img/date.svg);
+background-size: 50%;
+margin-right: 12px;
+background-repeat: no-repeat;
+background-position: center;
 }
 
 .articleTete {
