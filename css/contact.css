@@ -1,4 +1,20 @@
+/* #################################################### */
+/*       PAGE CONTACT          */
+/* #################################################### */
 
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 30px;
+}
+p.texte {
+  font-size: 20px;
+}
+
+/* ##################### */
+/*       HEADER          */
+/* ##################### */
 .banner-contact {
   text-align: center;
   height: 400px;
@@ -10,54 +26,146 @@
 }
 
 #header .banner-contact img {
-  max-width: 400px;
+  max-width: 750px;
+  position: absolute;
+}
+
+/* ##################### */
+/*   section a propos    */
+/* ##################### */
+
+img.contact-a-propos {
+  padding: 40px;
+  width: 40%;
+
 }
 
 #a-propos {
-    width: 992px;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
-section.a-propos{background-color: white; padding: 60px;}
-
-    section.notre-equipe{background: radial-gradient(circle, rgb(55, 53, 80) 0%, rgba(0,0,0,1) 100%);padding: 60px;}
-    section.notre-equipe h2{color: white; text-align: center;}
-
-
-.container.contact {
-
-  padding: 60px;
-
-  font-size: 18px;
+section.a-propos {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
 }
 
+/* ##################### */
+/* section notre erquipe */
+/* ##################### */
 
+section.notre-equipe {
+  text-align: center;
+  background: radial-gradient(
+    circle,
+    rgb(55, 53, 80) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  padding: 0px;
+  color: white;
+}
+section.notre-equipe h2 {
+  color: white;
+  text-align: center;
+}
 
 .container.equipe {
+  padding: 60px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
-    padding: 60px;
-  
-    font-size: 18px;
-    display: flex;
-    justify-content: space-between;
-  }
+.card-equipe {
+  width: 100%;
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 3px;
+  height: 300px;
+}
+/* ##################### */
+/* section contact forms */
+/* ##################### */
 
+section.contact-form {
+  padding: 60px;
+  font-size: 18px;
+  text-align: center;
+}
 
+.container.contact {
+}
 
-  .card-equipe{width: 30%;background-color: white; border-radius: 3px;height: 300px;}
+.banner-contact {
+  max-width: max-content;
+}
 
-.container.contact h1 {font-size: 30px;}
-
-
+/* ##################### */
+/*     RESPONSIVE        */
+/* ##################### */
 
 @media (min-width: 576px) {
   #header .banner-contact img {
-    max-width: 400px;
+    max-width: 576px;
   }
+
+
+  .banner-contact {
+    max-width: 100%;
+  }
+
+  #a-propos {
+    width: 576px;
+    margin: auto;
+  }
+
+  .card-equipe {
+    width: 100%;
+    width: 300px;
+  }
+
+  section.notre-equipe {
+    padding: 60px;
+  }
+  img.contact-a-propos {
+
+    width: 40%;
+  }
+
 }
 
 @media (min-width: 992px) {
   #header .banner-contact img {
-    max-width: 606px;
+    max-width: 726px;
   }
+
+  #a-propos {
+    width: 992px;
+    margin: auto;
+  }
+
+
+  .a-propos-texte{
+    display: flex;
+    align-items: center;
+  }
+
+  section.a-propos {
+    padding: 60px;
+    text-align: inherit;
+  }
+
+  .card-equipe {
+    width: 100%;
+    max-width: 290px;
+  }
+
+
+
+
 }
+
+
+
