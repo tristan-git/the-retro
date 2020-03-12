@@ -1,5 +1,5 @@
 .banner-container {
-    background-image: url(/img/pacman.svg);
+    background-image: url(../img/pacman.svg);
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
