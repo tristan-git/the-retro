@@ -20,8 +20,15 @@
   border-radius: 3px;
   box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.13);
   transition-duration: 0.3s;
+
+}
+.bgk{
+  position: relative;
+  z-index: 4;
+  width: 150px;
+  height:250px;
   background-image: url(../img/view.svg);
-  background-size: 50%;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
