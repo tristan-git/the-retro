@@ -35,12 +35,6 @@ margin-bottom: 30px;
   box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.13);
   background-color: white;
   transition-duration: 0.3s;
-
-
-
-
-
-
 }
 
 .articleU:hover {
@@ -48,6 +42,7 @@ margin-bottom: 30px;
   background: #FFD903;
   transform: scale(1.05);
   transition-duration: 0.3;
+
 }
 
 .articleIntro {
@@ -124,7 +119,7 @@ margin-bottom: 30px;
 :hover.articleBouton {
   background: lightgray;
   color: black;
-  transition: 0.8s;
+      transition: 0.8s;
 }
 
 
@@ -145,11 +140,6 @@ margin-bottom: 30px;
   #article {
     width: 700px;
     padding: 0px;
-  }
-}
-
-
-
 
 
   @media (max-width: 576px) {
