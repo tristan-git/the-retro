@@ -15,22 +15,8 @@
   background-repeat: no-repeat;
 }
 .articleU {
-  /* border-radius: 9px;
-  -webkit-box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.13);
-  -moz-box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.13);
-  box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.13);
-
-  background: white;
-  font-family: sans-serif;
-  font-size: 12px;
-  margin-left: auto;
-  margin-top: 15px;
-  margin-bottom: 8px;
-  margin-right: auto; */
-
-/* 335 px car 335 + 335 + 30px de gap = 700px (700px taille du conteneur) */
   width: 335px;
-margin-bottom: 30px;
+  margin-bottom: 30px;
   height: 450px;
   display: flex;
   flex-direction: column;
