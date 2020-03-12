@@ -15,8 +15,12 @@
 /* TRISTAN */
 
 #header {
-  background: rgb(2,0,36);
-  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%);
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgb(55, 53, 80) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   grid-area: header;
   grid-template-areas: "banner" "nav";
 }
@@ -44,11 +48,10 @@
 
 #filter {
   grid-area: filter;
-  background: #FFD903;
+  background: #ffd903;
   height: 70px;
   border-radius: 3px;
-  }
- 
+}
 
 #article {
   grid-area: article;
@@ -77,7 +80,7 @@
 
 @media (min-width: 768px) {
   #content {
-    width: 100%;git 
+    width: 100%;
   }
 }
 
@@ -89,7 +92,7 @@
     grid-template-areas:
       "article article sidebar"
       "article article advert";
-    width: 992px; 
+    width: 992px;
     margin: auto;
   }
   #sidebar {
@@ -110,4 +113,48 @@
     height: 100px;
     display: none;
   }
+}
+
+/* #############################################################/*/
+
+/* #############################################################/*/
+
+/* #############################################################/*/
+
+/* Layout page contact */
+
+#main-contact {
+  display: grid;
+  grid-template-areas: "header" "content" "googlemap" "footer";
+  /* row-gap: 60px; */
+}
+
+#google-map {
+  grid-area: googlemap;
+  /* margin-bottom: -60px; */
+}
+
+#content-contact {
+  grid-area: content;
+  display: grid;
+  grid-template-areas:
+    "a-propos"
+    "notre-equipe"
+    "sidebar-contact";
+
+  /* column-gap: 30px; */
+}
+
+#a-propos {
+  grid-area: a-propos;
+}
+
+#a-propos {
+  grid-area: notre-equipe;
+}
+
+#sidebar-contact {
+  grid-area: sidebar-contact;
+  background-color: chartreuse;
+  height: 200px;
 }

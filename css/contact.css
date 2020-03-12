@@ -1,0 +1,63 @@
+
+.banner-contact {
+  text-align: center;
+  height: 400px;
+  display: flex;
+  align-items: baseline;
+
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#header .banner-contact img {
+  max-width: 400px;
+}
+
+#a-propos {
+    width: 992px;
+    margin: auto;
+}
+
+section.a-propos{background-color: white; padding: 60px;}
+
+    section.notre-equipe{background: radial-gradient(circle, rgb(55, 53, 80) 0%, rgba(0,0,0,1) 100%);padding: 60px;}
+    section.notre-equipe h2{color: white; text-align: center;}
+
+
+.container.contact {
+
+  padding: 60px;
+
+  font-size: 18px;
+}
+
+
+
+.container.equipe {
+
+    padding: 60px;
+  
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+  .card-equipe{width: 30%;background-color: white; border-radius: 3px;height: 300px;}
+
+.container.contact h1 {font-size: 30px;}
+
+
+
+@media (min-width: 576px) {
+  #header .banner-contact img {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  #header .banner-contact img {
+    max-width: 606px;
+  }
+}
