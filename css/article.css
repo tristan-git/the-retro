@@ -54,12 +54,22 @@ margin-right: 12px;
 .articleCalend{
 width: 30px;
 height: 30px;
-border-radius: 50%;
 background-image: url(../img/date.svg);
+background-size: 100%;
+margin-right: 12px;
+background-repeat: no-repeat;
+background-position: center;
+}
+.articleLike{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background-image: url(../img/like.svg);
 background-size: 50%;
 margin-right: 12px;
 background-repeat: no-repeat;
 background-position: center;
+
 }
 
 .articleTete {
@@ -77,10 +87,11 @@ background-position: center;
 }
 
 .articleD {
-
+  display: flex;
     font-size: 12px;
     margin: auto;
     text-align: right;
+    align-content: space-between;
 }
 
 .articleCorps {

@@ -1,11 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="26px" height="24px" viewBox="0 0 26 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>np_like_837116_000000</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="np_like_837116_000000" fill="#FFFFFF" fill-rule="nonzero">
-            <path d="M12.9999217,24 L11.1799217,22.1739031 C4.42007831,16.1739489 0,12.1308545 0,7.17349387 C0,3.13039948 3.1199478,0 7.14954322,0 C9.3600522,0 11.5696215,1.04348395 13,2.73965607 C14.4274551,1.04348395 16.6398956,0 18.8504568,0 C22.8800522,0 26,3.13039948 26,7.17349387 C26,12.1300688 21.5799217,16.1739489 14.8200783,22.1728555 L12.9999217,24 Z" id="Path"></path>
-        </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="26px"
+   height="24px"
+   viewBox="0 0 26 24"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="like.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="13"
+     inkscape:cy="12"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg9" />
+  <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+  <title
+     id="title2">np_like_837116_000000</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     style="fill:#ff0000">
+    <g
+       id="np_like_837116_000000"
+       fill="#FFFFFF"
+       fill-rule="nonzero"
+       style="fill:#ff0000">
+      <path
+         d="M12.9999217,24 L11.1799217,22.1739031 C4.42007831,16.1739489 0,12.1308545 0,7.17349387 C0,3.13039948 3.1199478,0 7.14954322,0 C9.3600522,0 11.5696215,1.04348395 13,2.73965607 C14.4274551,1.04348395 16.6398956,0 18.8504568,0 C22.8800522,0 26,3.13039948 26,7.17349387 C26,12.1300688 21.5799217,16.1739489 14.8200783,22.1728555 L12.9999217,24 Z"
+         id="Path"
+         style="fill:#ff0000" />
     </g>
+  </g>
 </svg>
