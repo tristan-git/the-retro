@@ -91,6 +91,7 @@
 
     grid-template-areas:
       "article article sidebar"
+      "article article sidebar"
       "article article advert";
     width: 992px;
     margin: auto;

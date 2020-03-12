@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -71,3 +72,6 @@
     </g>
   </g>
 </svg>
+=======
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18.7625" x="0px" y="0px"><title>like</title><g data-name="Layer 2"><g data-name="Layer 1"><path d="M16.69,1.31a4.51,4.51,0,0,0-6.36,0L9,2.62l0,0,0,0L7.68,1.31A4.5,4.5,0,0,0,1.31,7.68L7.68,14C9,15.34,9,15.34,10.32,14l6.36-6.33A4.51,4.51,0,0,0,16.69,1.31Z"/></g></g><text x="0" y="30.009999999999998" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by Ali Ali</text><text x="0" y="35.01" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text></svg>
+>>>>>>> feature/sideBar

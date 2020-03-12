@@ -7,13 +7,31 @@
       grid-area: sidebar;
       width: 272px;
       background-color: white;
-      height: auto;
+      height: 502px;
       display: inherit;
       font-size: 15px;
       border-radius: 3px;
       padding: 15px;
       box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.13);
     }
+
+    #sideBarArticle {
+      grid-area: sidebar;
+      width: 150px;
+      background-color: white;
+      height: 50%;
+      display: inherit;
+      position: fixed;
+      margin-left: 55%;
+      font-size: 15px;
+      border-radius: 3px;
+      padding: 15px;
+      box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.13);
+    }
+
+
+    
+    
 
     /* ##########Research bar *#######*/
     /* ##########Research bar *#######*/
@@ -118,6 +136,38 @@
     margin-left: auto;
     margin-right: auto
   }
+
+  .logosideArticle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #homeIcon {
+    padding-top: 60px;
+  }
+
+  .logosideArticle:hover{
+    width: 55px;
+    cursor: pointer;
+  }
+
+  #iconArticle {
+    width: 50px;
+    
+  }
+
+  #iconArticle:hover {
+    width: 55px;
+  }
+
+
+
+
+
+
+
+
 
   /* //////////////Advert area ////////////////////////////////////*/
 
