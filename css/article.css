@@ -19,11 +19,28 @@
   font-size: 12px;
   border-radius: 3px;
   box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.13);
-  transition-duration: 0.3s;
+  transition-duration: 0.9s;
+
+}
+.bgk{
+
+  position: absolute;
+  top:-20px;
+  left: -20px;
+  z-index: 4;
+  width: 350px;
+  height:350px;
   background-image: url(../img/view.svg);
-  background-size: 50%;
+  background-size: 45%;
   background-position: center;
   background-repeat: no-repeat;
+  transition-duration: 0.3s;
+}
+.bgk:hover{
+
+  top: 0px;
+  background-size: 0%;
+  transition-duration: 0.6s;
 }
 
 
@@ -31,7 +48,7 @@
   opacity: 1;
   background: #FFD903;
   transform: scale(1.05);
-  transition-duration: 0.3;
+  transition-duration: 0.3s;
 
 }
 
@@ -183,6 +200,9 @@ background-position: center;
   @media (max-width: 576px) {
     #article {
       width: 100%;
+    }
+    .bgk{
+      display: none;
     }
     .articleU {
       width: 100%;
