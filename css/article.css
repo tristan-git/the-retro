@@ -7,6 +7,13 @@
   background: white;
 }
 
+.bck{
+
+  background-image: url(../img/view.svg);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .articleU {
   /* border-radius: 9px;
   -webkit-box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.13);
@@ -33,9 +40,10 @@ margin-bottom: 30px;
   font-size: 12px;
   border-radius: 3px;
   box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.13);
-  background-color: white;
   transition-duration: 0.3s;
+  z-index: 1;
 }
+
 
 .articleU:hover {
   opacity: 1;
