@@ -5,7 +5,8 @@
 h1 {
   font-size: 50px;
 }
-h2 {
+h2,
+h3 {
   font-size: 30px;
 }
 p.texte {
@@ -37,7 +38,6 @@ p.texte {
 img.contact-a-propos {
   padding: 40px;
   width: 40%;
-
 }
 
 #a-propos {
@@ -70,6 +70,10 @@ section.notre-equipe h2 {
   text-align: center;
 }
 
+section.notre-equipe h3{
+  margin-top: 0;
+}
+
 .container.equipe {
   padding: 60px;
   font-size: 18px;
@@ -84,7 +88,35 @@ section.notre-equipe h2 {
   background-color: white;
   border-radius: 3px;
   height: 300px;
+  color: #070617;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 500ms;
 }
+
+.card-equipe:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.card-equipe img { margin-top: 15px;}
+
+
+
+
+
+
+.profil-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-image: url(../img/profil.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.job{margin-top: -30px;margin-bottom: 15px;}
 /* ##################### */
 /* section contact forms */
 /* ##################### */
@@ -93,9 +125,6 @@ section.contact-form {
   padding: 60px;
   font-size: 18px;
   text-align: center;
-}
-
-.container.contact {
 }
 
 .banner-contact {
@@ -110,7 +139,6 @@ section.contact-form {
   #header .banner-contact img {
     max-width: 576px;
   }
-
 
   .banner-contact {
     max-width: 100%;
@@ -130,10 +158,8 @@ section.contact-form {
     padding: 60px;
   }
   img.contact-a-propos {
-
-    width: 40%;
+    width: 800px;
   }
-
 }
 
 @media (min-width: 992px) {
@@ -146,8 +172,7 @@ section.contact-form {
     margin: auto;
   }
 
-
-  .a-propos-texte{
+  .a-propos-texte {
     display: flex;
     align-items: center;
   }
@@ -161,11 +186,4 @@ section.contact-form {
     width: 100%;
     max-width: 290px;
   }
-
-
-
-
 }
-
-
-
