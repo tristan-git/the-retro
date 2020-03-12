@@ -46,7 +46,17 @@
     padding: 10px;
     color: white;
     font-size: 18px;
+    transition-duration: 0.4s;
   }
+
+  #header nav #nav-desktop ul li a:hover {
+    padding: 10px;
+    color:#FFD903;
+    font-size: 18px;
+    transition-duration: 0.4s;
+  }
+
+
 
   #header nav #logo {
     order: 1;
