@@ -6,7 +6,9 @@
   padding:  0px 15px;
   background: white;
 }
-
+a {
+  text-decoration: none;
+}
 
 .articleU {
   margin-bottom: 30px;
@@ -25,7 +27,7 @@
 .bgk{
 
   position: absolute;
-  
+
   left: -20px;
   z-index: 4;
   width: 350px;
