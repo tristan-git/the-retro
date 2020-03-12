@@ -6,7 +6,7 @@
   font-size: 20px;
   margin:auto;
   width: 500px;
-  background: lightgrey;
+  background: #E6E6E6;
 }
 
 .articleIntro{
@@ -15,15 +15,21 @@
   padding: 10px;
   line-height: 1,8;
   font-style: italic;
-  font-size: 18px,
+  font-size: 22px;
+}
+.articleImage{
+  width: 100%;
+  border-radius: 9px;
 }
 
 .courant{
+  margin-bottom: 50px;
+  margin-top: 50px;
   font-size: 14px;
   line-height: 2;
   background: white;
   border-radius: 9px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .imagetxt{
@@ -31,6 +37,7 @@
   width: 150px;
 }
 h1{
+    font-size: 28px;
     text-align: center;
 }
 .artCenter {
@@ -45,6 +52,6 @@ h1{
 .pageTete{
   margin:auto;
   width: 500px;
-  background: red;
+  border-radius: 8px;
 
 }
