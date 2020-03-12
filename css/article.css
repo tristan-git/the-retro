@@ -9,7 +9,6 @@
 
 
 .articleU {
-  width: 335px;
   margin-bottom: 30px;
   height: 450px;
   display: flex;
@@ -155,14 +154,32 @@ background-position: center;
     width: 100%;
     margin: auto;
   }
+  .articleU {
+      width: 335px;
+    /* margin: 12px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px; */
+  }
 }
 
 @media (min-width: 992px) {
   #article {
     width: 700px;
     padding: 0px;
-
-
+}
+.articleU {
+    width: 335px;
+  /* margin: 12px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px; */
+}
+}
   @media (max-width: 576px) {
     #article {
       width: 100%;
