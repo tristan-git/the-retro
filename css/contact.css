@@ -16,6 +16,8 @@ p.texte {
   font-size: 20px;
 }
 
+iframe { width: 100%}
+
 /* ##################### */
 
 /*       HEADER          */
@@ -44,7 +46,7 @@ p.texte {
 
 img.contact-a-propos {
   padding: 40px;
-  width: 40%;
+  width:60%;
 }
 
 #a-propos {
@@ -193,12 +195,13 @@ input {
   width: 100%;
   height: 70px;
   border-radius: 3px;
-  ;
+  padding: 15px;
 }
 
 textarea {
   height: 200px;
   border-radius: 3px;
+  padding: 15px;
 }
 
 button.send {
@@ -208,8 +211,7 @@ button.send {
   margin-top: 15px;
   border-radius: 3px;
   width: max-content;
-
-min-width: 200px;
+  min-width: 200px;
 }
 
 /* ##################### */
@@ -231,13 +233,13 @@ min-width: 200px;
   }
   .card-equipe {
     width: 100%;
-    width: 300px;
+    width: 100%;
   }
   section.notre-equipe {
     padding: 60px;
   }
   img.contact-a-propos {
-    width: 800px;
+    width: 270px;
   }
 }
 
@@ -258,7 +260,10 @@ min-width: 200px;
     text-align: inherit;
   }
   .card-equipe {
-    width: 100%;
+    width: 45%;
     max-width: 290px;
+  }
+  img.contact-a-propos {
+    height: 320px;
   }
 }

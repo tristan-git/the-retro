@@ -1,4 +1,5 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +9,6 @@
     <link type="text/css" rel="stylesheet" href="css/nav.css" />
     <link type="text/css" rel="stylesheet" href="css/banner.css" />
     <link type="text/css" rel="stylesheet" href="css/header.css" />
-    <link type="text/css" rel="stylesheet" href="css/article.css" />
     <link type="text/css" rel="stylesheet" href="css/Particle.css" />
     <link type="text/css" rel="stylesheet" href="css/sidebar.css" />
     <link type="text/css" rel="stylesheet" href="css/footer.css" />
@@ -23,16 +23,17 @@
 
   <body>
   <div id="main">
+    <div id=top></div>
       <div id="header">
         <nav id="nav">
-          <div id="burger"><img src="img/Shape.svg" /></div>
+          <div id="burger"><img src="img/Shape.svg" alt="Shape" /></div>
 
             <div id="nav-desktop">
               <ul>
-                <li><a href="http://127.0.0.1:5500/index.html">Accueil</a></li>
-                <li><a href="#">Actus</a></li>
-                <li><a href="#">A propos</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="article.html">Actus</a></li>
+                <li><a href="contact.html">A propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
               </ul>
             </div>
 
@@ -80,48 +81,35 @@
 
           Florence avait fini de préparer le matériel demandé par Prélude. Elle était fin prête. Elle vérifia le bon fonctionnement de la liaison entre son ordinateur portable et Internet. Prélude était bien là. A peine connecté à Internet que la voix de Prélude se fit entendre.
           </p>
-      </div>
+      </div><div id=bottom></div>
     </div>
   </div>
 
   <div id="sideBarArticle">
     <div>
-      <img
-        id="homeIcon"
-        class="logosideArticle"
-        src="img/icons8-accueil.svg"
-        alt="Home"
-      />
-    </div>
+      <a href="index.html"><img id="homeIcon" src="img/icons8-accueil.svg" alt="Home"/>
+    </div></a>
+    <div><a href="#top"></div>
 
     <div>
+
       <img
         class="logosideArticle"
         src="img/icons8-chevron-haut-52.png"
         alt="Chevron haut"
-      />
+      /></a>
     </div>
-    <div>
+    <div><a href="#bottom">
       <img
         class="logosideArticle"
         src="img/icons8-chevron-bas-52.png"
         alt="Chevron bas"
-      />
+      /></a>
     </div>
-    <div class="logosideArticle">
-      <img
-        id="iconArticle"
-        src="img/like.svg"
-        alt="Like article"
-      />
+  <div>
+      <img  id="iconArticle" src="img/like.svg" alt="Like article"/>
     </div>
-
     </div>
-
-
-
-
-
   </div>
       <!-- JEROME ###################-->
       <div id="footermobile">
@@ -133,9 +121,9 @@
           </ul>
         </div>
         <div class="divfoooter_img">
-          <div><a href="#"><img src=img/facebook-logo.png width="55px"></a></div>
-          <div><a href="#"><img src=img/YouTube.png width="50px" height="60"></a></div>
-          <div><a href="#"><img src=img/twitter.png width="40px"></a></div>
+          <div><a href="#"><img src=img/facebook-logo.png alt="fb" width="55"></a></div>
+          <div><a href="#"><img src=img/YouTube.png alt="youtube" width="50" height="60"></a></div>
+          <div><a href="#"><img src=img/twitter.png alt="twtitter" width="40"></a></div>
         </div>
       </div>
       <div id="footer">
@@ -154,7 +142,7 @@
           </ul>
         </div>
         <div class="divfoooter">
-          <img src=img/logo.png width="100px">
+          <img src=img/logo.png alt="logo" width="100">
         </div>
         <div class="divfoooter">
           <ul>
@@ -164,9 +152,10 @@
           </ul>
         </div>
         <div class="divfoooter_img">
-          <div><a href="#"><img src=img/facebook-logo.png width="55px"></a></div>
-          <div><a href="#"><img src=img/YouTube.png width="50px" height="60"></a></div>
-          <div><a href="#"><img src=img/twitter.png width="40px"></a></div>
+
+          <div><a href="#"><img src=img/facebook-logo.png alt="fb" width="55"></a></div>
+          <div><a href="#"><img src=img/YouTube.png alt="youtube" width="50" height="60"></a></div>
+          <div><a href="#"><img src=img/twitter.png alt="twitter" width="40"></a></div>
         </div>
       </div>
       <!-- END JEROME ###################-->
