@@ -1,0 +1,66 @@
+#filter {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: -65px;
+    padding: 10px;
+    height: 68px;
+}
+
+#articleFilter {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    width: 90%;
+}
+
+#articleFilter:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+#divitemFilter {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-weight: bold;
+    color: black;
+}
+
+#divitemFilter:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.count-filter {
+    position: relative;
+    left: 3px;
+}
+
+#numberFilter {
+    align-items: center;
+    padding: 7px;
+    display: flex;
+    background-color:#ffffff7a;
+    border-radius: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+
+
+@media (min-width: 992px) {
+    #filter {
+        display: none;
+    }
+}

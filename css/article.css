@@ -1,0 +1,273 @@
+/*####################*/
+
+/*     Article        */
+
+/*####################*/
+
+/*####################*/
+
+#article {
+  display: flex;
+  /* align-content: flex-start; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 15px;
+  background: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.articleU {
+  margin-bottom: 30px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: 12px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.13);
+  transition-duration: 0.9s;
+}
+
+.bgk {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  height: 250px;
+  background-image: url(../img/view.svg);
+  background-size: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition-duration: 0.3s;
+}
+
+.bgk:hover {
+  background-size: 0%;
+  transition-duration: 0.6s;
+}
+
+.articleU:hover {
+  opacity: 1;
+  background: #FFD903;
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+}
+
+/*####################*/
+
+/*     HEAD          */
+
+/*####################*/
+
+/*####################*/
+
+.articleTitre {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.articleRond {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../img/profil.jpg);
+  background-size: 100%;
+  margin-right: 12px;
+}
+
+.articleCalend {
+  width: 20px;
+  height: 30px;
+  background-image: url(../img/date.svg);
+  background-size: 100%;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.articleLike {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../img/like.svg);
+  background-size: 50%;
+  margin-right: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.articleTete {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.articleD {
+  display: flex;
+  font-size: 12px;
+  text-align: right;
+  align-content: space-between;
+}
+
+.articleRond {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../img/profil.jpg);
+  background-size: 100%;
+  margin-right: 12px;
+}
+
+/*####################*/
+
+/*     CORPS         */
+
+/*####################*/
+
+/*####################*/
+
+.articleIntro {
+  font-size: 14px;
+  font-style: italic;
+  color: #585858;
+  margin-top: -8px;
+}
+
+.articleG {
+  align-items: center;
+  /* width: 270px; */
+  font-size: 14px;
+  display: flex;
+}
+
+.articleD {
+  display: flex;
+  font-size: 12px;
+  text-align: right;
+  align-content: space-between;
+}
+
+.layout-date {
+  display: flex;
+  align-items: center;
+}
+
+.date-desktop {
+  display: none;
+}
+
+.date-mobile {
+  display: inherit;
+}
+
+.articleCorps {
+  text-align: center;
+  position: relative;
+}
+
+.articleTitre {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.articleTitre p {
+  margin-bottom: 10px;
+}
+
+.articleGauche {
+  width: 90%;
+  left: 10px;
+  display: flex;
+}
+
+.articleFooter {
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 5px;
+}
+
+.articleCoeur {
+  display: flex;
+  align-items: center;
+}
+
+.articleBouton {
+  margin-left: 5px;
+  font-size: 10px;
+  background: #000000;
+  color: white;
+  padding: 13px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+:hover.articleBouton {
+  background: lightgray;
+  color: black;
+  transition: 0.8s;
+}
+
+@media (max-width: 992px) {
+  #article {
+    width: 100%;
+    margin: auto;
+  }
+  .articleU {
+    width: 49%;
+    /* margin: 12px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px; */
+  }
+}
+
+@media (min-width: 576px) {
+  .date-desktop {
+    display: inherit;
+  }
+  .date-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #article {
+    width: 700px;
+    padding: 0px;
+  }
+  .articleU {
+    width: 335px;
+    /* margin: 12px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px; */
+  }
+}
+
+@media (max-width: 576px) {
+  #article {
+    width: 100%;
+  }
+  .bgk {
+    display: none;
+  }
+  .articleU {
+    width: 100%;
+    /* margin: 12px;
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 15px; */
+  }
+}

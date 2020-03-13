@@ -1,0 +1,159 @@
+/* #############################################################/*/
+
+/* #############################################################/*/
+
+/* #############################################################/*/
+
+/* Layout page d'accueil */
+
+#main {
+  display: grid;
+  grid-template-areas: "header" "content" "footer";
+  row-gap: 60px;
+}
+
+/* TRISTAN */
+
+#header {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgb(55, 53, 80) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  grid-area: header;
+  grid-template-areas: "banner" "nav";
+}
+
+#nav {
+  grid-area: nav;
+}
+
+#banner {
+  grid-area: banner;
+  height: 350px;
+}
+
+/* END TRISTAN */
+
+#content {
+  grid-area: content;
+  display: grid;
+  grid-template-areas: "filter" "article";
+  width: 100%;
+  margin: auto;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+#filter {
+  grid-area: filter;
+  background: #ffd903;
+  height: 70px;
+  border-radius: 3px;
+}
+
+#article {
+  grid-area: article;
+  background: grey;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  background-color: chartreuse;
+  height: 200px;
+  display: none;
+}
+
+#advert {
+  grid-area: advert;
+  background-color: darkgray;
+  height: 100px;
+  display: none;
+}
+
+#footer {
+  grid-area: footer;
+  background-color: darkred;
+  height: 150px;
+}
+
+@media (min-width: 768px) {
+  #content {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  #content {
+    grid-area: content;
+    display: grid;
+
+    grid-template-areas:
+      "article article sidebar"
+      "article article sidebar"
+      "article article advert";
+    width: 992px;
+    margin: auto;
+  }
+  #sidebar {
+    grid-area: sidebar;
+    background-color: white;
+    height: 200px;
+    display: inherit;
+  }
+  #advert {
+    grid-area: advert;
+    background-color: darkgray;
+    height: 100px;
+    display: inherit;
+  }
+  #filter {
+    grid-area: filter;
+    background: red;
+    height: 100px;
+    display: none;
+  }
+}
+
+/* #############################################################/*/
+
+/* #############################################################/*/
+
+/* #############################################################/*/
+
+/* Layout page contact */
+
+#main-contact {
+  display: grid;
+  grid-template-areas: "header" "content" "googlemap" "footer";
+  /* row-gap: 60px; */
+}
+
+#google-map {
+  grid-area: googlemap;
+  /* margin-bottom: -60px; */
+}
+
+#content-contact {
+  grid-area: content;
+  display: grid;
+  grid-template-areas:
+    "a-propos"
+    "notre-equipe"
+    "sidebar-contact";
+
+  /* column-gap: 30px; */
+}
+
+#a-propos {
+  grid-area: a-propos;
+}
+
+#a-propos {
+  grid-area: notre-equipe;
+}
+
+#sidebar-contact {
+  grid-area: sidebar-contact;
+}

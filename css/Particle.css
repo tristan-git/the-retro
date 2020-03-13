@@ -1,0 +1,58 @@
+ .pageArticleContainer{
+      }
+
+.pageTete{
+  padding: 20px;
+  font-size: 20px;
+  margin:auto;
+  background: #E6E6E6;
+  margin:auto;
+  border-radius: 8px;
+}
+
+.articleIntro{
+  background: white;
+  border-radius: 9px;
+  padding: 10px;
+  line-height: 1,8;
+  font-style: italic;
+  font-size: 22px;
+}
+.articleImage{
+  width: 100%;
+  border-radius: 9px;
+}
+
+.courant{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 14px;
+  line-height: 2;
+  background: white;
+  border-radius: 9px;
+  padding: 15px;
+}
+
+.imagetxt{
+  margin:15px;
+  width: 150px;
+}
+h1{
+    font-size: 28px;
+    text-align: center;
+}
+.artCenter {
+  width: 180px;
+  margin: auto;
+}
+  .pageArticleContainer{
+    width: 100%;
+    display: flex;
+    align-content: center;
+  }
+  @media (min-width: 992px) {
+    .pageTete{
+      width: 600px;
+    }
+  }
+  

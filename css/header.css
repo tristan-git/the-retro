@@ -1,0 +1,47 @@
+.banner-container {
+    background-image: url(../img/pacman.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.banner-container h1 {
+    color: white;
+}
+
+.pacman-eat {
+    height: 20px;
+    width: 20px;
+    background-color: #f9d94a;
+    border-radius: 100%;
+    position: relative;
+    top: -89px;
+    left: 60px;
+    animation: eat-pacman 1s infinite;
+}
+
+@keyframes eat-pacman {
+    from {
+        margin-left: 60px;
+        opacity: 0;
+    }
+    50% {
+        margin-left: 30px;
+        opacity: 1;
+    }
+    to {
+        margin-left: 0px;
+        opacity: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .banner-container {
+        width: 992px;
+    }
+}

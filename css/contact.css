@@ -1,0 +1,269 @@
+/* #################################################### */
+
+/*       PAGE CONTACT          */
+
+/* #################################################### */
+
+h1 {
+  font-size: 50px;
+}
+
+h2, h3 {
+  font-size: 30px;
+}
+
+p.texte {
+  font-size: 20px;
+}
+
+iframe { width: 100%}
+
+/* ##################### */
+
+/*       HEADER          */
+
+/* ##################### */
+
+.banner-contact {
+  text-align: center;
+  height: 400px;
+  display: flex;
+  align-items: baseline;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#header .banner-contact img {
+  max-width: 750px;
+  position: absolute;
+}
+
+/* ##################### */
+
+/*   section a propos    */
+
+/* ##################### */
+
+img.contact-a-propos {
+  padding: 40px;
+  width:60%;
+}
+
+#a-propos {
+  width: 100%;
+  margin: auto;
+}
+
+section.a-propos {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* ##################### */
+
+/* section notre erquipe */
+
+/* ##################### */
+
+section.notre-equipe {
+  text-align: center;
+  background: radial-gradient( circle, rgb(55, 53, 80) 0%, rgba(0, 0, 0, 1) 100%);
+  padding: 0px;
+  color: white;
+}
+
+section.notre-equipe h2 {
+  color: white;
+  text-align: center;
+}
+
+section.notre-equipe h3 {
+  margin-top: 0;
+}
+
+.container.equipe {
+  padding: 60px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-equipe {
+  width: 100%;
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 3px;
+  height: 300px;
+  color: #070617;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 500ms;
+}
+
+.card-equipe:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.card-equipe img {
+  margin-top: 15px;
+}
+
+.profil-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-image: url(../img/profil.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.job {
+  margin-top: -30px;
+  margin-bottom: 15px;
+}
+
+/* ##################### */
+
+/* section contact forms */
+
+/* ##################### */
+
+section.contact-form {
+  padding: 60px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.banner-contact {
+  max-width: max-content;
+}
+
+form {
+  position: inherit;
+  top: inherit;
+  left: inherit;
+  transform: inherit;
+  transition: inherit;
+  width: inherit;
+  height: inherit;
+  background: inherit;
+  box-sizing: inherit;
+  border-radius: inherit;
+  border: inherit;
+  padding: inherit;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+input {
+  position: inherit;
+  top: inherit;
+  left: inherit;
+  width: inherit;
+  height: inherit;
+  line-height: inherit;
+  outline: inherit;
+  border: inherit;
+  display: inherit;
+  font-size: inherit;
+  border-radius: inherit;
+  padding: inherit;
+}
+
+form:hover input {
+  display: inherit;
+}
+
+form:hover {
+  width: inherit;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #DDD;
+  margin-bottom: 1rem;
+  border: 1px solid #422D2D;
+  width: 100%;
+  height: 70px;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+textarea {
+  height: 200px;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+button.send {
+  padding: 15px;
+  border: none;
+  background-color: #ffd903;
+  margin-top: 15px;
+  border-radius: 3px;
+  width: max-content;
+  min-width: 200px;
+}
+
+/* ##################### */
+
+/*     RESPONSIVE        */
+
+/* ##################### */
+
+@media (min-width: 576px) {
+  #header .banner-contact img {
+    max-width: 576px;
+  }
+  .banner-contact {
+    max-width: 100%;
+  }
+  #a-propos {
+    width: 576px;
+    margin: auto;
+  }
+  .card-equipe {
+    width: 100%;
+    width: 100%;
+  }
+  section.notre-equipe {
+    padding: 60px;
+  }
+  img.contact-a-propos {
+    width: 270px;
+  }
+}
+
+@media (min-width: 992px) {
+  #header .banner-contact img {
+    max-width: 726px;
+  }
+  #a-propos {
+    width: 992px;
+    margin: auto;
+  }
+  .a-propos-texte {
+    display: flex;
+    align-items: center;
+  }
+  section.a-propos {
+    padding: 60px;
+    text-align: inherit;
+  }
+  .card-equipe {
+    width: 45%;
+    max-width: 290px;
+  }
+  img.contact-a-propos {
+    height: 320px;
+  }
+}

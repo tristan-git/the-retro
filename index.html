@@ -1,34 +1,390 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link type="text/css" rel="stylesheet" href="styles.css">
-</head>
-
-<body>
+    <link type="text/css" rel="stylesheet" href="css/global.css" />
+    <link type="text/css" rel="stylesheet" href="css/layout.css" />
+    <link type="text/css" rel="stylesheet" href="css/nav.css" />
+    <link type="text/css" rel="stylesheet" href="css/header.css" />
+    <link type="text/css" rel="stylesheet" href="css/article.css" />
+    <link type="text/css" rel="stylesheet" href="css/sidebar.css" />
+    <link type="text/css" rel="stylesheet" href="css/footer.css" />
+    <link type="text/css" rel="stylesheet" href="css/filter.css" />
+    <link href="https://fonts.googleapis.com/css?family=Sen:400,700,800&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <div id="main">
+      <!-- TRISTAN ###################-->
+      <div id="header">
+        <nav id="nav">
+          <div id="burger"><img src="img/Shape.svg" alt="Shape" /></div>
+          <div id="nav-desktop">
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="article.html">Actus</a></li>
+              <li><a href="contact.html">A propos</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div id="logo">
+            <a href="index.html"><img src="img/logo.png" alt="logo"/></a>
+          </div>
+          <div id="login"><img src="img/login.svg" alt="login"/></div>
+        </nav>
+        <div id="banner">
+          <div class="banner-container">
+            <div class="pacman-eat"></div>
 
-        <div id="header">
-            <div id="nav">nav</div>
-            <div id="banner">banner</div>
+            <h1>L’actu retro-gaming</h1>
+          </div>
+        </div>
+      </div>
+      <!--END TRISTAN ##############-->
+      <div id="content">
+        <!-- Josué ###################-->
+        <div id="filter">
+            <div id="numberFilter">
+             <div class="count-filter">7</div>
+            </div>
+
+            <div id="articleFilter">
+              Articles filtrés
+            </div>
+
+            <div>
+              <img id="divitemFilter" src="img/filter.svg" alt=Menufiltre/>
+            </div>
+
+
+
+
+        </div>
+        <!-- END Josué ###################-->
+        <!-- NICO ###################-->
+
+      <div id="article">
+         <div class="articleU">
+            <!-- debut articles -->
+            <div class="articleTete">
+              <!-- en tête -->
+              <div class="articleG">
+              <div class="articleRond"></div>  <a class="articleNomAuteur">By Nicolas</a>
+              </div>
+              <!-- nom de l'auteur + photo-->
+              <div class="articleD">
+               <div class="layout-date"> <div class="articleCalend"></div><span class="date-desktop">Quelques semaines...</span><span class="date-mobile">12/05/12</span></div>
+              </div>
+              <!-- en tête -->
+            </div>
+
+          <a href="article.html"><div class="articleCorps">
+              <div class="bgk"></div>
+              <!-- corps -->
+              <img src=img/game-boy.svg alt="gameboy">
+              <!-- image en 100% du cadre article-->
+              <div class="articleTitre">
+                <p>Le Game Boy</p>
+                <p class="articleIntro">
+                  "Toutes les informations sur cette mythique console portable."
+                </p>
+              </div>
+            </div></a>
+            <!--
+              <div class = "articleCourant"><p>
+          Le jeu est un RPG, il se joue sur pc uniquement et il est typique des précurseurs
+          des mmorpg actuel. Son inventaire riche en déclinaison d'armes, armures et potions lui donne des atouts
+          qui on fait de lui une pointure des MMO des années 1990.
+          </p></div>
+          -->
+            <div class="articleFooter">
+              <!--pied carte -->
+              <div class="articleGauche">
+                <!-- gauche -->
+                <div class="articleBouton">
+                  <a class="articleTags">#Portable</a>
+                </div>
+                <div class="articleBouton">
+                  <a class="articleTags">#NetB</a>
+                </div>
+                <div class="articleBouton">
+                  <a class="articleTags">#GB</a>
+                </div>
+              </div>
+
+              <div class="articleCoeur">
+                <!-- class pour positionner le coeur à gauche -->
+                <a>32</a><div class="articleLike"></div>
+              </div>
+            </div>
+          </div>
+          <!-- fin articles -->
+          <div class="articleU">
+            <!-- debut articles -->
+            <div class="articleTete">
+              <!-- en tête -->
+              <div class="articleG">
+              <div class="articleRond"></div>  <a class="articleNomAuteur">By Jérome</a>
+              </div>
+              <!-- nom de l'auteur + photo-->
+
+              <div class="articleD">
+                <div class="layout-date"> <div class="articleCalend"></div><span class="date-desktop">Pas très longtemps...</span><span class="date-mobile">12/05/12</span></div>
+               </div>
+              <!-- en tête -->
+            </div>
+
+          <a href="article.html"><div class="articleCorps">
+              <div class="bgk"></div>
+              <!-- corps -->
+              <img src=img/sport.svg alt="sport">
+              <!-- image en 100% du cadre article-->
+              <div class="articleTitre">
+                <p>Sports games</p>
+                <p class="articleIntro">
+                  "isn't in games. Les débuts des jeux de sports, les top's et
+                  les flop's !"
+                </p>
+              </div>
+            </div></a>
+            <!--
+              <div class = "articleCourant"><p>
+          Le jeu est un RPG, il se joue sur pc uniquement et il est typique des précurseurs
+          des mmorpg actuel. Son inventaire riche en déclinaison d'armes, armures et potions lui donne des atouts
+          qui on fait de lui une pointure des MMO des années 1990.
+          </p></div>
+          -->
+            <div class="articleFooter">
+              <!--pied carte -->
+              <div class="articleGauche">
+                <!-- gauche -->
+                <div class="articleBouton">
+                  <a class="articleTags">#Sport</a>
+                </div>
+                <div class="articleBouton">
+                  <a class="articleTags">#pixel</a>
+                </div>
+                <div class="articleBouton">
+                  <a class="articleTags">#Top</a>
+                </div>
+              </div>
+
+              <div class="articleCoeur">
+                <!-- class pour positionner le coeur à gauche -->
+                <a>56</a><div class="articleLike"></div>
+              </div>
+            </div>
+          </div>
+          <!-- fin articles -->
+          <div class="articleU">
+            <!-- debut articles -->
+            <div class="articleTete">
+              <!-- en tête -->
+              <div class="articleG">
+              <div class="articleRond"></div> <a class="articleNomAuteur">By Josué</a>
+              </div>
+              <!-- nom de l'auteur + photo-->
+
+              <div class="articleD">
+                <div class="layout-date"> <div class="articleCalend"></div><span class="date-desktop">Il y'a trois jours...</span><span class="date-mobile">12/05/12</span></div>
+               </div>
+              <!-- en tête -->
+            </div>
+
+        <a href="article.html">      <div class="articleCorps">
+              <div class="bgk"></div>
+              <!-- corps -->
+              <img src=img/ghost.svg alt="ghost">
+              <!-- image en 100% du cadre article-->
+              <div class="articleTitre">
+                <p>PAC - MAN</p>
+                <p class="articleIntro">
+                  "Le jeu de labyrinthe qui n'est jamais sortie des moeurs."
+                </p>
+              </div>
+            </div></a>
+            <!--
+              <div class = "articleCourant"><p>
+          Le jeu est un RPG, il se joue sur pc uniquement et il est typique des précurseurs
+          des mmorpg actuel. Son inventaire riche en déclinaison d'armes, armures et potions lui donne des atouts
+          qui on fait de lui une pointure des MMO des années 1990.
+          </p></div>
+          -->
+            <div class="articleFooter">
+              <!--pied carte -->
+              <div class="articleGauche">
+                <!-- gauche -->
+                <div class="articleBouton">
+                  <a class="articleTags">#Jaune</a>
+                </div>
+                <div class="articleBouton"><a class="articleTags">#Top</a></div>
+                <div class="articleBouton">
+                  <a class="articleTags">#PC</a>
+                </div>
+              </div>
+
+              <div class="articleCoeur">
+                <!-- class pour positionner le coeur à gauche -->
+                <a>100</a><div class="articleLike"></div>
+              </div>
+            </div>
+          </div>
+          <!-- fin articles -->
+          <div class="articleU">
+            <!-- debut articles -->
+            <div class="articleTete">
+              <!-- en tête -->
+              <div class="articleG">
+            <div class="articleRond"></div><a class="articleNomAuteur">By Tristan</a>
+              </div>
+              <!-- nom de l'auteur + photo-->
+              <div class="articleD">
+                <div class="layout-date"> <div class="articleCalend"></div><span class="date-desktop">Il y'a deux jours...</span><span class="date-mobile">12/05/12</span></div>
+               </div>
+              <!-- en tête -->
+            </div>
+
+        <a href="article.html"><div class="articleCorps">
+              <div class="bgk"></div>
+              <!-- corps -->
+              <img src=img/manette.svg alt="manette">
+              <!-- image en 100% du cadre article-->
+              <div class="articleTitre">
+                <p>Les consoles</p>
+                <p class="articleIntro">
+                  "Listes des consoles les plus répendues des années 70 à 90."
+                </p>
+              </div>
+            </div></a>
+            <!--
+              <div class = "articleCourant"><p>
+          Le jeu est un RPG, il se joue sur pc uniquement et il est typique des précurseurs
+          des mmorpg actuel. Son inventaire riche en déclinaison d'armes, armures et potions lui donne des atouts
+          qui on fait de lui une pointure des MMO des années 1990.
+          </p></div>
+          -->
+            <div class="articleFooter">
+              <!--pied carte -->
+              <div class="articleGauche">
+                <!-- gauche -->
+                <div class="articleBouton">
+                  <a class="articleTags">#Top</a>
+                </div>
+                <div class="articleBouton"><a class="articleTags">#3D</a></div>
+                <div class="articleBouton">
+                  <a class="articleTags">#Console</a>
+                </div>
+              </div>
+
+              <div class="articleCoeur">
+                <!-- class pour positionner le coeur à gauche -->
+                <a>56</a><div class="articleLike"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- fin articles -->
+        </div>
+        <!-- div fin nico article area-->
+
+        <!-- END NICO ###################-->
+        <!-- josué ###################-->
+
+        <div id="sidebar">
+          <form>
+            <input type="search" />
+            <i class="fa fa-search"></i>
+          </form>
+          <div id="tagcloud">
+
+              <div class="tagcloudliste">#Arcade </div>
+              <div class="tagcloudliste">#Zelda</div>
+              <div class="tagcloudliste">#Pixel</div>
+              <div class="tagcloudliste">#Tetris</div>
+              <div class="tagcloudliste">#Top</div>
+              <div class="tagcloudliste">#Pong</div>
+              <div class="tagcloudliste">#Net-B</div>
+              <div class="tagcloudliste">#Mario</div>
+              <div class="tagcloudliste">#Bomberman</div>
+              <div class="tagcloudliste">#Pacman</div>
+              <div class="tagcloudliste">#MegaMan</div>
+              <div class="tagcloudliste">#Portable</div>
+              <div class="tagcloudliste">#Labyrinthe</div>
+
+          </div>
+
+          <div>
+            <img
+              id="logoside"
+              src="/img/icons8-game-boy-visuelle-100.png"
+              alt="Logo gameboy"
+            />
+          </div>
         </div>
 
-        <div id="content">
-            <div id="filter">filter</div>
-            <div id="article">article</div>
-            <div id="sidebar">sidebar</div>
-            <div id="advert">advert</div>
+        <div id="advert">
+          <img
+            id="imgAdvert"
+            src="https://live.staticflickr.com/3370/3344264429_00898c0574_b.jpg"
+            alt="Image publicitaire"
+          />
         </div>
-
-        <div id="footer">
-        footer
+        <!-- end josué ###################-->
+      </div>
+      <!-- JEROME ###################-->
+      <div id="footermobile">
+        <div class="divfoooter">
+          <ul>
+            <li>About</li>
+            <li>Mission</li>
+            <li>Site map</li>
+          </ul>
         </div>
-
+        <div class="divfoooter_img">
+          <div><a href="#"><img src=img/facebook-logo.png alt="fb" width="55"></a></div>
+          <div><a href="#"><img src=img/YouTube.png alt="youtube" width="50" height="60"></a></div>
+          <div><a href="#"><img src=img/twitter.png alt="twtitter" width="40"></a></div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="divfoooter">
+          <ul>
+            <li><a href="#">A propos</a></li>
+            <li><a href="#">Mission</a></li>
+            <li><a href="#">Site map</a></li>
+          </ul>
+        </div>
+        <div class="divfoooter">
+          <ul>
+            <li><a href="#">Histoire</a></li>
+            <li><a href="#">Partenaires</a></li>
+            <li><a href="#">Performances</a></li>
+          </ul>
+        </div>
+        <div class="divfoooter">
+          <img src=img/logo.png alt="logo" width="100">
+        </div>
+        <div class="divfoooter">
+          <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Crédits</a></li>
+          </ul>
+        </div>
+        <div class="divfoooter_img">
+          <div><a href="#"><img src=img/facebook-logo.png alt="fb" width="55"></a></div>
+          <div><a href="#"><img src=img/YouTube.png alt="youtube" width="50" height="60"></a></div>
+          <div><a href="#"><img src=img/twitter.png alt="twitter" width="40"></a></div>
+        </div>
+      </div>
+      <!-- END JEROME ###################-->
     </div>
-    
-</body>
-
-
-
+  </body>
 </html>
