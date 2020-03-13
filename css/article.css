@@ -1,3 +1,11 @@
+/*####################*/
+
+/*     Article        */
+
+/*####################*/
+
+/*####################*/
+
 #article {
   display: flex;
   /* align-content: flex-start; */
@@ -50,11 +58,17 @@ a {
   transition-duration: 0.3s;
 }
 
-.articleIntro {
-  font-size: 14px;
-  font-style: italic;
-  color: #585858;
-  margin-top: -8px;
+/*####################*/
+
+/*     HEAD          */
+
+/*####################*/
+
+/*####################*/
+
+.articleTitre {
+  margin: 10px;
+  font-size: 30px;
 }
 
 .articleRond {
@@ -93,27 +107,55 @@ a {
   padding: 5px;
 }
 
+.articleD {
+  display: flex;
+  font-size: 12px;
+  margin: auto;
+  text-align: right;
+  align-content: space-between;
+}
+
+.articleRond {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../img/profil.jpg);
+  background-size: 100%;
+  margin-right: 12px;
+}
+
+/*####################*/
+
+/*     CORPS         */
+
+/*####################*/
+
+/*####################*/
+
+.articleIntro {
+  font-size: 14px;
+  font-style: italic;
+  color: #585858;
+  margin-top: -8px;
+}
+
 .articleG {
   align-items: center;
   /* width: 270px; */
   font-size: 14px;
   display: flex;
- 
 }
 
 .articleD {
   display: flex;
   font-size: 12px;
- 
   text-align: right;
   align-content: space-between;
 }
 
-
-.layout-date{
+.layout-date {
   display: flex;
   align-items: center;
-
 }
 
 .date-desktop {
@@ -146,10 +188,9 @@ a {
   margin: 5px;
 }
 
-.articleGauche {
-  width: 90%;
-  left: 10px;
+.articleCoeur {
   display: flex;
+  align-items: center;
 }
 
 .articleBouton {
@@ -160,11 +201,6 @@ a {
   padding: 13px;
   text-align: center;
   border-radius: 3px;
-}
-
-.articleCoeur {
-  display: flex;
-  align-items: center;
 }
 
 :hover.articleBouton {
