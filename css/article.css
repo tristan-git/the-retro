@@ -110,7 +110,6 @@ a {
 .articleD {
   display: flex;
   font-size: 12px;
-  margin: auto;
   text-align: right;
   align-content: space-between;
 }
