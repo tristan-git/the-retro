@@ -1,27 +1,25 @@
  .pageArticleContainer{
       }
-
 .pageTete{
   padding: 20px;
   font-size: 20px;
   margin:auto;
-  width: 500px;
   background: #E6E6E6;
 }
-
 .articleIntro{
   background: white;
   border-radius: 9px;
   padding: 10px;
   line-height: 1,8;
   font-style: italic;
-  font-size: 22px;
+  font-size: 14px;
+  color: #585858;
+  margin-top: -8px;
 }
 .articleImage{
   width: 100%;
   border-radius: 9px;
 }
-
 .courant{
   margin-bottom: 50px;
   margin-top: 50px;
@@ -31,7 +29,6 @@
   border-radius: 9px;
   padding: 15px;
 }
-
 .imagetxt{
   margin:15px;
   width: 150px;
@@ -45,13 +42,15 @@ h1{
   margin: auto;
 }
   .pageArticleContainer{
-    width: 100%;
     display: flex;
     align-content: center;
   }
 .pageTete{
   margin:auto;
-  width: 500px;
   border-radius: 8px;
-
+}
+@media (min-width: 992px){
+.pageTete{
+  width: 80%;
+}
 }
