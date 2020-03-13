@@ -178,6 +178,12 @@ a {
   margin-bottom: 10px;
 }
 
+.articleGauche {
+  width: 90%;
+  left: 10px;
+  display: flex;
+}
+
 .articleFooter {
   border-radius: 5px;
   display: flex;
