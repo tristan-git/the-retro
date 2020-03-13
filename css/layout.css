@@ -9,7 +9,7 @@
 #main {
   display: grid;
   grid-template-areas: "header" "content" "footer";
-  row-gap: 30px;
+  row-gap: 60px;
 }
 
 /* TRISTAN */
