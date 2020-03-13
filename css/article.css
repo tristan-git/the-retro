@@ -35,9 +35,8 @@ a {
 
 .bgk {
   position: absolute;
-  left: -20px;
   z-index: 4;
-  width: 350px;
+  width: 100%;
   height: 250px;
   background-image: url(../img/view.svg);
   background-size: 45%;
@@ -110,7 +109,6 @@ a {
 .articleD {
   display: flex;
   font-size: 12px;
-  margin: auto;
   text-align: right;
   align-content: space-between;
 }
@@ -215,7 +213,7 @@ a {
     margin: auto;
   }
   .articleU {
-    width: 335px;
+    width: 49%;
     /* margin: 12px;
     height: 450px;
     display: flex;

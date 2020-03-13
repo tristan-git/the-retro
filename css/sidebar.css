@@ -108,7 +108,7 @@
     padding-left: 10px;
   }
 
-  #tagcloudliste {
+  .tagcloudliste {
     justify-content: center;
     display: inline-block;
     max-width: 100px;
@@ -129,7 +129,7 @@
     transition: .2s;
   }
 
-  #tagcloudliste:hover {
+  .tagcloudliste:hover {
     background-color: #555;
     color: #fff;
     cursor: pointer;
