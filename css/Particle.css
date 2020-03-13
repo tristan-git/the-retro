@@ -5,8 +5,9 @@
   padding: 20px;
   font-size: 20px;
   margin:auto;
-  width: 500px;
   background: #E6E6E6;
+  margin:auto;
+  border-radius: 8px;
 }
 
 .articleIntro{
@@ -49,9 +50,8 @@ h1{
     display: flex;
     align-content: center;
   }
-.pageTete{
-  margin:auto;
-  width: 500px;
-  border-radius: 8px;
-
-}
+  @media (min-width: 992px) {
+    .pageTete{
+      width: 600px;
+    }
+  }
