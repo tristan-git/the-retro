@@ -6,6 +6,7 @@
     margin-left: 15px;
     margin-top: -65px;
     padding: 10px;
+    height: 68px;
 }
 
 #articleFilter {
@@ -46,13 +47,14 @@
     align-items: center;
     padding: 7px;
     display: flex;
-    background-color: white;
+    background-color:#ffffff7a;
     border-radius: 100%;
     font-size: 15px;
     font-weight: bold;
     color: black;
     width: 30px;
     height: 30px;
+    margin-right: 5px;
 }
 
 @media (min-width: 768px) {
