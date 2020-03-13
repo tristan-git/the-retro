@@ -3,9 +3,10 @@
   /* align-content: flex-start; */
   justify-content: space-between;
   flex-wrap: wrap;
-  padding:  0px 15px;
+  padding: 0px 15px;
   background: white;
 }
+
 a {
   text-decoration: none;
 }
@@ -22,35 +23,31 @@ a {
   border-radius: 3px;
   box-shadow: 0px 0px 21px 3px rgba(0, 0, 0, 0.13);
   transition-duration: 0.9s;
-
 }
-.bgk{
 
+.bgk {
   position: absolute;
-
   left: -20px;
   z-index: 4;
   width: 350px;
-  height:250px;
+  height: 250px;
   background-image: url(../img/view.svg);
   background-size: 45%;
   background-position: center;
   background-repeat: no-repeat;
   transition-duration: 0.3s;
 }
-.bgk:hover{
 
+.bgk:hover {
   background-size: 0%;
   transition-duration: 0.6s;
 }
-
 
 .articleU:hover {
   opacity: 1;
   background: #FFD903;
   transform: scale(1.05);
   transition-duration: 0.3s;
-
 }
 
 .articleIntro {
@@ -60,33 +57,34 @@ a {
   margin-top: -8px;
 }
 
-.articleRond{
-width: 30px;
-height: 30px;
-border-radius: 50%;
-background-image: url(../img/profil.jpg);
-background-size: 100%;
-margin-right: 12px;
+.articleRond {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../img/profil.jpg);
+  background-size: 100%;
+  margin-right: 12px;
 }
-.articleCalend{
-width: 30px;
-height: 30px;
-background-image: url(../img/date.svg);
-background-size: 100%;
-margin-right: 12px;
-background-repeat: no-repeat;
-background-position: center;
-}
-.articleLike{
-width: 30px;
-height: 30px;
-border-radius: 50%;
-background-image: url(../img/like.svg);
-background-size: 50%;
-margin-right: 12px;
-background-repeat: no-repeat;
-background-position: center;
 
+.articleCalend {
+  width: 20px;
+  height: 30px;
+  background-image: url(../img/date.svg);
+  background-size: 100%;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.articleLike {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../img/like.svg);
+  background-size: 50%;
+  margin-right: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .articleTete {
@@ -97,18 +95,33 @@ background-position: center;
 
 .articleG {
   align-items: center;
-  width: 270px;
+  /* width: 270px; */
   font-size: 14px;
   display: flex;
-  margin: auto;
+ 
 }
 
 .articleD {
   display: flex;
-    font-size: 12px;
-    margin: auto;
-    text-align: right;
-    align-content: space-between;
+  font-size: 12px;
+ 
+  text-align: right;
+  align-content: space-between;
+}
+
+
+.layout-date{
+  display: flex;
+  align-items: center;
+
+}
+
+.date-desktop {
+  display: none;
+}
+
+.date-mobile {
+  display: inherit;
 }
 
 .articleCorps {
@@ -120,9 +133,9 @@ background-position: center;
   margin: 10px;
   font-size: 30px;
 }
+
 .articleTitre p {
   margin-bottom: 10px;
-
 }
 
 .articleFooter {
@@ -157,15 +170,8 @@ background-position: center;
 :hover.articleBouton {
   background: lightgray;
   color: black;
-      transition: 0.8s;
+  transition: 0.8s;
 }
-
-
-
-
-
-
-
 
 @media (max-width: 992px) {
   #article {
@@ -173,7 +179,7 @@ background-position: center;
     margin: auto;
   }
   .articleU {
-      width: 335px;
+    width: 335px;
     /* margin: 12px;
     height: 450px;
     display: flex;
@@ -183,35 +189,45 @@ background-position: center;
   }
 }
 
+@media (min-width: 576px) {
+  .date-desktop {
+    display: inherit;
+  }
+  .date-mobile {
+    display: none;
+  }
+}
+
 @media (min-width: 992px) {
   #article {
     width: 700px;
     padding: 0px;
-}
-.articleU {
+  }
+  .articleU {
     width: 335px;
-  /* margin: 12px;
+    /* margin: 12px;
   height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 15px; */
+  }
 }
-}
-  @media (max-width: 576px) {
-    #article {
-      width: 100%;
-    }
-    .bgk{
-      display: none;
-    }
-    .articleU {
-      width: 100%;
-      /* margin: 12px;
+
+@media (max-width: 576px) {
+  #article {
+    width: 100%;
+  }
+  .bgk {
+    display: none;
+  }
+  .articleU {
+    width: 100%;
+    /* margin: 12px;
       height: 450px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       padding: 15px; */
-    }
   }
+}
