@@ -57,11 +57,7 @@
     margin-right: 5px;
 }
 
-@media (min-width: 768px) {
-    #filter {
-        width: 80%;
-    }
-}
+
 
 @media (min-width: 992px) {
     #filter {
