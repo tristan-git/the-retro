@@ -20,17 +20,37 @@
     />
   </head>
   <body>
+    <!-- <div id="container-mobile-nav" > -->
+    <div id="mobile-nav" class="close ">
+      <a href="#"><img class="toto" src="img/logo.png" alt="logo"/></a>
+      <div id="burger" class="burger-close ">
+        <img src="img/close.svg" alt="Shape" />
+      </div>
+      <ul id="mobile-nav-ul"></ul>
+
+      <ul id="mobile-nav-ul-2">
+        <li>contact</li>
+        <li>mention légales</li>
+        <li>CGV</li>
+      </ul>
+    </div>
+    <!-- </div> -->
+
     <div id="main-contact" class="contact">
       <!-- TRISTAN ###################-->
       <div id="header">
         <nav id="nav">
-          <div id="burger"><img src="img/Shape.svg" alt="Shape" /></div>
+          <div id="burger" class="burger-open">
+            <img src="img/Shape.svg" alt="Shape" />
+          </div>
           <div id="nav-desktop">
-            <ul>
-              <li><a href="index.html">Accueil</a></li>
-              <li><a href="article.html">Actus</a></li>
-              <li><a href="contact.html">A propos</a></li>
-              <li><a href="contact.html">Contact</a></li>
+            <ul id="nav-desktop-ul">
+              <li class="linkDesktop active">
+                <a href="index.html">Accueil</a>
+              </li>
+              <li class="linkDesktop"><a href="article.html">Actus</a></li>
+              <li class="linkDesktop"><a href="contact.html">A propos</a></li>
+              <li class="linkDesktop"><a href="contact.html">Contact</a></li>
             </ul>
           </div>
           <div id="logo">
@@ -205,5 +225,6 @@
       </div>
       <!-- END JEROME ###################-->
     </div>
+    <script src="/tristan-js.js"></script>
   </body>
 </html>

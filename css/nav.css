@@ -1,18 +1,110 @@
 /* #############################################################/*/
+
 /* #############################################################/*/
+
 /* #############################################################/*/
+
 /* Tristan navbar */
 
-#header nav {
+#container-mobile-nav {
+  width: 100vh;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000a3;
+  position: absolute;
+  z-index: 588;
+}
 
+.burger-close {
+  padding: 30px;
+}
+
+#mobile-nav-ul2 {
+  background-color: #17141f;
+}
+
+#mobile-nav-ul-2 {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 30px;
+}
+
+#mobile-nav-ul-2 li {
+  padding: 10px!important;
+  opacity: 0.60;
+}
+
+#mobile-nav-ul li:nth-child(odd) {
+  background-color: #17141f;
+}
+
+#mobile-nav-ul li.active {
+  border-left: solid 5px #ffd902;
+}
+
+#mobile-nav .toto {
+  width: 90px;
+  position: absolute;
+  top: 30px;
+  right: 117px;
+}
+
+#mobile-nav.close {
+  transform: translateX(-330px);
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+  box-shadow: #000 0px 0px 0px;
+}
+
+#mobile-nav {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 75;
+  color: white;
+  background-color: #111017;
+  max-width: 330px;
+  box-shadow: #000 12px 12px 63px;
+  transform: translateX(-330px);
+}
+
+#mobile-nav.open {
+  transform: translateX(0px);
+  transition: ease-out;
+  transition-duration: 0.3s;
+  /* box-shadow: #000 12px 12px 63px; */
+}
+
+#mobile-nav ul {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#mobile-nav li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#mobile-nav li a {
+  padding: 30px;
+  font-size: 18px;
+  display: block;
+}
+
+#header nav {
   color: white;
   padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
-
+  height: 79px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 26px;
 }
+
 #header nav #logo img {
   width: 115px;
   position: relative;
@@ -22,20 +114,20 @@
 #header nav #nav-desktop {
   display: none;
 }
+
 /* Desktop version */
+
 @media (min-width: 992px) {
+  #container-mobile-nav {
+    display: none;
+  }
   #burger {
     display: none;
   }
-
-
   #header nav {
-
-
     width: 992px;
     margin: auto;
   }
-
   #header nav #nav-desktop {
     display: inherit;
   }
@@ -48,16 +140,12 @@
     font-size: 18px;
     transition-duration: 0.4s;
   }
-
   #header nav #nav-desktop ul li a:hover {
     padding: 10px;
-    color:#FFD903;
+    color: #FFD903;
     font-size: 18px;
     transition-duration: 0.4s;
   }
-
-
-
   #header nav #logo {
     order: 1;
   }
