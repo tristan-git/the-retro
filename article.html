@@ -10,8 +10,8 @@
     <link type="text/css" rel="stylesheet" href="css/banner.css" />
     <link type="text/css" rel="stylesheet" href="css/header.css" />
     <link type="text/css" rel="stylesheet" href="css/Particle.css" />
-    <link type="text/css" rel="stylesheet" href="css/sidebar.css" />
-    <link type="text/css" rel="stylesheet" href="css/footer.css" />
+  <!--   <link type="text/css" rel="stylesheet" href="css/sidebar.css" />-->
+  --><link type="text/css" rel="stylesheet" href="css/footer.css" />
     <link href="https://fonts.googleapis.com/css?family=Sen:400,700,800&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
@@ -84,32 +84,56 @@
           Florence avait fini de préparer le matériel demandé par Prélude. Elle était fin prête. Elle vérifia le bon fonctionnement de la liaison entre son ordinateur portable et Internet. Prélude était bien là. A peine connecté à Internet que la voix de Prélude se fit entendre.
           </p>
       </div><div id=bottom></div>
+
+
+      <div class="formulaire">
+        <div class="inside">
+        <form class="comArt">
+          <p>Votre pseudonyme :</p>
+          <input type="input" id="titre">
+        </form>
+        <form class="comArt">
+          <p> Votre commentaire :</p>
+          <textarea id="posteToAdd" name="story" rows="5" cols="33"></textarea>
+        </form>
+        <form class="comArt">
+        <input type="button" id="boutonPoste" value="Commenter">
+        </form>
+      </div>
+      </div>
+        <div id="postCom" style="display:block;">
+            <p>Les commentaires :</p>
+            <div id="postee"></div>
+            </div>
+
+
+
     </div>
   </div>
 
   <div id="sideBarArticle">
     <div>
-      <a href="index.html"><img id="homeIcon" src="img/icons8-accueil.svg" alt="Home"/>
+      <a href="index.html"><img class="iconArticle" src="img/icons8-accueil.svg" alt="Home"/>
     </div></a>
     <div><a href="#top"></div>
 
     <div>
 
       <img
-        class="logosideArticle"
+      class="iconArticle"
         src="img/icons8-chevron-haut-52.png"
         alt="Chevron haut"
       /></a>
     </div>
     <div><a href="#bottom">
       <img
-        class="logosideArticle"
+        class="iconArticle"
         src="img/icons8-chevron-bas-52.png"
         alt="Chevron bas"
       /></a>
     </div>
   <div>
-      <img  id="iconArticle" src="img/like.svg" alt="Like article"/>
+      <img  class="iconArticleC" src="img/like.svg" alt="Like article"/>
     </div>
     </div>
   </div>
@@ -163,4 +187,5 @@
 
   </div>
   </body>
+  <script src="create-article.js"></script>
 </html>
