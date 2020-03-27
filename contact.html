@@ -137,14 +137,85 @@
             <p>THE RETRO - 5 Pl. Jean Diebold, 31300 Toulouse</p>
 
             <div id="form">
-              <form>
-                <input type="email" placeholder="@" />
-                <input type="text" placeholder="&#8962;" />
-                <input type="text" placeholder="I have seen one of them" />
-                <textarea placeholder="Your message"></textarea>
-
-                <button type="submit" class="send">Send</button>
+              <form id="form" action="#">
+                <h1>Formulaire d'inscription</h1>
+                <div>
+                <span>champs obligatoires *</span>
+                
+                <p>
+                  <label for="prenom">Prenon</label> :
+                  <input
+                    type="text"
+                    name="prenom"
+                    id="prenom"
+                    autocomplete="on"
+                    placeholder="Alain"
+                  />
+                </p>
+                <p>
+                  <label for="nom">Nom</label> :
+                  <input
+                    type="text"
+                    name="nom"
+                    id="nom"
+                    autocomplete="on"
+                    placeholder="Terrieur"
+                  />
+                </p>
+              
+                <p>
+                  <label for="pseudo">Pseudo *</label> :
+                  <span id="aidePseudo"></span>
+                  <input
+                    type="text"
+                    name="pseudo"
+                    id="pseudo"
+                    autocomplete="on"
+                    placeholder="Confiné_du_31"
+                    required
+                  />
+                </p>
+                <p>
+                  <label for="mdp">Mot de passe *</label> :
+                  <span id="aideMdp"></span>
+                  <span id="aideMdpMaj"></span>
+                  <span id="aideMdpChi"></span>
+                  <span id="aideMdpCs"></span>
+                  
+                  <br>
+                  <input type="password" name="mdp" id="mdp" autocomplete="on" required />
+                  <span>Affichez mot de passe</span>
+                  <input id ="affMdp" type="checkbox" onclick="AfficheMdp()">
+                </p> 
+                <p>
+                  <label for="confirMdp">Confirmez mot de passe *</label> :
+                  <span id="confirAideMdp"></span>
+                  <br>
+                  <input type="password" name="confirmMdp" id="confirMdp" autocomplete="on" required />
+                  <span>Afficher mot de passe</span>
+                  <input id ="confirAffMdp" type="checkbox" onclick="confirAfficheMdp()">
+                </p> 
+          
+                <p>
+                  <label for="courriel">Courriel *</label> :
+                  <span id="aideCourriel"></span>
+                  <input
+                    type="email"
+                    name="courriel"
+                    id="courriel"
+                    required
+                    placeholder="alain.terrieur@gmal.com"
+                  />
+                  
+                </p>
+                
+              <input type="submit" value="Envoyer" />
+              <!-- <input type="reset" value="Annuler"/> -->
+            </p>
+          </div>
               </form>
+              <!-- <button onclick="reset()">Annuler</button> -->
+              <script type="text/javascript" src="formulaire.js"></script>
             </div>
           </div>
         </section>
