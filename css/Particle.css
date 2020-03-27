@@ -5,8 +5,9 @@
   padding: 20px;
   font-size: 20px;
   margin:auto;
-  width: 500px;
   background: #E6E6E6;
+  margin:auto;
+  border-radius: 8px;
 }
 
 .articleIntro{
@@ -49,9 +50,124 @@ h1{
     display: flex;
     align-content: center;
   }
-.pageTete{
-  margin:auto;
-  width: 500px;
-  border-radius: 8px;
 
-}
+  #postCom{
+    background-color: #FFD903;;
+    border-radius: 12px;
+    position: relative;
+    padding: 16px;
+    top : 20%;
+    box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.13);
+  }
+  .formulaire{
+    display: block;
+    border-radius: 20px;
+    position: relative;
+    padding-bottom: 18px;
+  }
+  .inside{
+    position: relative;
+    padding: 18px;
+    border-radius: 16px;
+    background-color: #FFD903;;
+
+
+  }
+
+  .articleCase{
+
+    background-color: white;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-areas:
+    "picture titre"
+    "texte texte";
+    grid-template-columns: 50px auto;
+    box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.13);
+  }
+
+  .TitreDuPoste{
+    margin-left: 30px;
+    grid-area: titre;
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .courant{
+    grid-area: texte;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .rondPicture{
+    grid-area: picture;
+    background-image: url("../img/login.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.13);
+  }
+
+  .iconArticle {
+    display: none;
+  }
+  .iconArticleC{
+    width: 50px;
+    }
+  .iconArticleC:hover {
+    width: 55px;
+    }
+  #sideBarArticle {
+    left: 40%;
+    top: 60%;
+    padding-left: 65px;
+    padding-right: 65px;
+    background-color: #FFD903;
+    position: fixed;
+    font-size: 15px;
+    border-radius: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.13);
+  }
+
+
+  @media (min-width: 992px) {
+      #sidebar {
+        grid-area: sidebar;
+        width: 272px;
+        background-color: white;
+        height: 502px;
+        display: inherit;
+        font-size: 15px;
+        border-radius: 3px;
+        padding: 15px;
+        box-shadow: 0px 0px 21px 3px rgba(0,0,0,0.13);
+      }
+      #sideBarArticle {
+          background-color: white;
+          left: 85%;
+          border-radius: 3px;
+          top:15%;
+          width: 90px
+          padding : 15px
+        }
+
+        .iconArticle{
+          display: block;
+          width: 50px;
+        }
+        .iconArticle:hover {
+          width: 55px;
+        }
+
+
+    .pageTete{
+      width: 600px;
+    }
+  }

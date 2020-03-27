@@ -16,11 +16,7 @@
 
 #header {
   background: rgb(2, 0, 36);
-  background: radial-gradient(
-    circle,
-    rgb(55, 53, 80) 0%,
-    rgba(0, 0, 0, 1) 100%
-  );
+  background: radial-gradient( circle, rgb(55, 53, 80) 0%, rgba(0, 0, 0, 1) 100%);
   grid-area: header;
   grid-template-areas: "banner" "nav";
 }
@@ -88,11 +84,7 @@
   #content {
     grid-area: content;
     display: grid;
-
-    grid-template-areas:
-      "article article sidebar"
-      "article article sidebar"
-      "article article advert";
+    grid-template-areas: "article article sidebar" "article article sidebar" "article article advert";
     width: 992px;
     margin: auto;
   }
@@ -138,11 +130,7 @@
 #content-contact {
   grid-area: content;
   display: grid;
-  grid-template-areas:
-    "a-propos"
-    "notre-equipe"
-    "sidebar-contact";
-
+  grid-template-areas: "a-propos" "notre-equipe" "sidebar-contact";
   /* column-gap: 30px; */
 }
 

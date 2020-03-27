@@ -71,6 +71,7 @@ section.notre-equipe {
   background: radial-gradient( circle, rgb(55, 53, 80) 0%, rgba(0, 0, 0, 1) 100%);
   padding: 0px;
   color: white;
+  padding: 10px;
 }
 
 section.notre-equipe h2 {
