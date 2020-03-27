@@ -155,6 +155,8 @@ section.notre-equipe h3 {
 
 /* ##################### */
 
+.layout-check{display: flex;align-items: center;}
+
 section.contact-form {
   padding: 60px;
   font-size: 18px;
@@ -241,9 +243,7 @@ button.send {
 #confirAffMdp {
   width: 25px;
   height: 25px;
-  position: relative;
-  left: 180px;
-  top: -30px;
+
 }
 
 /* ##################### */

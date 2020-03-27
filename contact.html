@@ -136,7 +136,7 @@
             <h2 id="contact-h2">Nous contacter</h2>
             <p>THE RETRO - 5 Pl. Jean Diebold, 31300 Toulouse</p>
 
-            <div id="form">
+            <div id="form" style="    text-align: left;">
               <form id="form" action="#">
                 <h1>Formulaire d'inscription</h1>
                 <div>
@@ -184,16 +184,19 @@
                   
                   <br>
                   <input type="password" name="mdp" id="mdp" autocomplete="on" required />
-                  <span>Affichez mot de passe</span>
-                  <input id ="affMdp" type="checkbox" onclick="AfficheMdp()">
+                  <div class="layout-check">       <span>Affichez mot de passe</span>
+                    <input id ="affMdp" type="checkbox" onclick="AfficheMdp()"></div>
+           
                 </p> 
                 <p>
                   <label for="confirMdp">Confirmez mot de passe *</label> :
                   <span id="confirAideMdp"></span>
                   <br>
                   <input type="password" name="confirmMdp" id="confirMdp" autocomplete="on" required />
+                  <div class="layout-check">
                   <span>Afficher mot de passe</span>
                   <input id ="confirAffMdp" type="checkbox" onclick="confirAfficheMdp()">
+                  </div>
                 </p> 
           
                 <p>
