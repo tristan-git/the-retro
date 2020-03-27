@@ -3,11 +3,11 @@ document.querySelector("#pseudo").addEventListener("change", function(event) {
   let inputpseudo = document.querySelector("#pseudo");
   if (inputpseudo.value.length < 3) {
     document.getElementById("aidePseudo").innerHTML =
-      '<img src=../images/non.png width="15px" height="15px">' +
+      '<img src=../img/non.png width="15px" height="15px">' +
       "  Entrez 3 caractères minimum";
   } else {
     document.getElementById("aidePseudo").innerHTML =
-      '<img src=../images/oui.jpeg width="15px" height="15px">' + "    Validé";
+      '<img src=../img/oui.jpeg width="15px" height="15px">' + "    Validé";
   }
 });
 
