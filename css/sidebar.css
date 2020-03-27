@@ -63,7 +63,7 @@
     /* ##########Research bar *#######*/
     /* ##########Research bar *#######*/
 
-    form{
+    #researchForm{
       position: relative;
       top: 50%;
       left: 50%;
@@ -104,14 +104,14 @@
       font-size: 1.2em;
       transition: all 1s;
     }
-    form:hover{
+    #researchForm:hover{
       width: 200px;
       cursor: pointer;
     }
-    form:hover input{
+    #researchForm:hover input{
       display: block;
     }
-    form:hover .fa{
+    #researchForm:hover .fa{
       background: #07051A;
       color: white;
     }

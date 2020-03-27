@@ -12,6 +12,7 @@
     <link type="text/css" rel="stylesheet" href="css/sidebar.css" />
     <link type="text/css" rel="stylesheet" href="css/footer.css" />
     <link type="text/css" rel="stylesheet" href="css/filter.css" />
+    <script type="text/javascript" src="sidebar.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Sen:400,700,800&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
@@ -298,8 +299,9 @@
         <!-- josué ###################-->
 
         <div id="sidebar">
-          <form>
-            <input type="search" />
+          <form id="researchForm">
+            <input id="searchBar" onkeyup="searchSideBar()" type="text"
+            name="search" placeholder="Search title"/>
             <i class="fa fa-search"></i>
           </form>
           <div id="tagcloud">
